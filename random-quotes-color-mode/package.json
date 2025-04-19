@@ -1,0 +1,15 @@
+{
+  "name": "random-quotes",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "scripts": {
+    "start": "app.js"
+  },
+  "devDependencies": {
+    "node": "^18.20.8"
+  }
+}

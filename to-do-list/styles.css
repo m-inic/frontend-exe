@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #daeac28a, #cbe1a9);
+}
+
+::-webkit-scrollbar-track {
+    /* border-radius: 10px; */
+    background: #cbe1a9;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    border-radius: 10px;
+    background: #cbe1a9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5e694b;
+}
+
+header {
+    height: 57rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #4d602a7d;
+    box-shadow: 0px 0px 20px 20px #4d602a7d;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+header nav {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #4d602ab9, rgba(255, 255, 255, 0));
+    position: fixed;
+    width: 100%;
+}
+
+#top-nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 30rem;
+    padding: 0;
+    justify-content: space-between;
+}
+
+
+.top-nav-item a {
+    font-family: "Poppins";
+    text-decoration: none;
+    padding: 0.5rem;
+    background: transparent;
+    transition: 0.2s;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    color: #FCFFAF;
+}
+
+.top-nav-item a:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+#landing {
+    height: 27rem;
+    padding: 15rem 0 15rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#landing h1 {
+    font-size: 10rem;
+    margin: 0;
+    font-family: "Oranienbaum";
+    font-weight: 100;
+    color: #FCFFAF;
+}
+
+#landing a {
+    font-family: "Poppins";
+    color: #FCFFAF;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+#landing a:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+}
+
+#landing a:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+#landing a:hover:after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40rem;
+    margin: 7rem auto 0px auto;
+    background: #9baf7b;
+}
+
+#form-holder {
+    display: flex;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background: linear-gradient(30deg, #5e694b, #d9e9c1, #5e694b);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1d3b1d;
+    box-shadow: 0px 12px 30px 0px #212121;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20rem;
+}
+
+#label-task {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Oranienbaum";
+    word-spacing: 8px;
+}
+
+#task {
+    width: 20rem;
+    background: beige;
+    height: 10rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 5px 0px black inset;
+    padding: 0.5rem;
+    resize: none;
+    font-family: "Poppins";
+}
+
+#task:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0px 2px black inset;
+}
+
+#task-btn {
+    background: blanchedalmond;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 3px 0 #1e1e1e;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: 0.1s;
+    color: #1d3b1d;
+    font-size: 1rem;
+}
+
+#task-btn:active {
+    transition: 0.1s;
+    transform: translate(0px, 8px);
+    box-shadow: none;
+}
+
+#form-holder p {
+    font-family: "Oranienbaum";
+    font-size: 1.7rem;
+    margin: 0 0 1rem 0;
+}
+
+#task-holder {
+    display: flex;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background: linear-gradient(330deg, #5e694b, #d9e9c1, #5e694b);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1d3b1d;
+    box-shadow: 0px 12px 30px 0px #212121;
+}
+
+#task-list {
+    list-style: none;
+    width: 35rem;
+    height: 18rem;
+    margin: 0;
+    background: #f5f5dc;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 0px black inset;
+    overflow: overlay;
+    padding: 0 0 2rem 0px;
+}
+
+#task-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+#task-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.task-list-item {
+    width: 31rem;
+    padding: 0.5rem;
+    margin: 2rem auto 0 auto;
+    border-radius: 8px;
+    background: #ffebcd;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.task-list-p {
+    margin: 0;
+    width: 20rem;
+    font-family: "Poppins";
+    white-space: wrap;
+}
+
+.task-holder-button {
+    background: linear-gradient(45deg, #a93434, #ff0000);
+    ;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    color: #f7fbac;
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#newsletter {
+    height: 30rem;
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background: radial-gradient(#728458, #323827);
+    border-radius: 1rem;
+    border: 2px solid #ffb100;
+    box-shadow: 0px 0px 6px 0px #ffb100;
+}
+
+#footer-heading-holder {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#newsletter h1 {
+    text-align: center;
+    font-family: "Oranienbaum";
+    word-spacing: 2px;
+    color: #fcffaf;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#newsletter h2 {
+    margin: 0;
+    color: #fcffaf;
+    font-weight: normal;
+}
+
+#newsletter span {
+    background: linear-gradient(#ffbc00, #ff0000);
+    background-clip: text;
+    -webkit-text-fill-color: #00000000;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#label-input-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3.5rem;
+    align-items: center;
+}
+
+#newsletter label {
+    font-family: "Oranienbaum";
+    font-size: 1.3rem;
+    color: #fcffaf;
+    margin-left: 1rem;
+    height: 1.5rem;
+    width: 6rem;
+}
+
+#newsletter input {
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    height: 1.3rem;
+    padding: 4px 0 4px 6px;
+    font-size: 0.9rem;
+    width: 11rem;
+    font-family: "Poppins";
+    color: #1d3b1d;
+}
+
+#newsletter input:focus-visible {
+    box-shadow: 0px 0px 3px 1px inset black;
+    outline: none;
+}
+
+#newsletter button {
+    background: blanchedalmond;
+    width: 7rem;
+    height: 2.6rem;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: 0.1s;
+    color: #1d3b1d;
+    font-size: 1rem;
+    border: 1px solid #ffb100;
+}
+
+footer p {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Oranienbaum';
+    margin: 5rem 0px 0px 0px;
+}
+
+#footer-div {
+    background: linear-gradient(165deg, #738558, #2c3123);
+    height: 13rem;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color: #FCFFAF;
+    margin-top: 8rem;
+}
+
+#footer-div div {
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 15rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Poppins";
+}
+
+img {
+    overflow: hidden;
+    width: 3rem;
+    filter: invert(1);
+}
+
+span {
+    font-family: "Oranienbaum";
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+}
+
+#footer-div h1 {
+    font-family: 'Oranienbaum';
+    letter-spacing: 3px;
+}

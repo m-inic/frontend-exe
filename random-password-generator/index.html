@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM LETTERS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <video id="background-video" autoplay loop muted poster="">
+        <source src="vids/matrix-code.mp4" type="video/mp4">
+    </video>
+    <div id="heading-div">
+        <h1>this will be your sequence of choice</h1>
+    </div>
+    <form>
+        <div class="form-div">
+            <label for="min">min</label>
+            <input type="range" id="min" name="min" min="0" max="100" value="0">
+            <output name="min_output" for="min" id="min_output">?</output>
+        </div>
+        <div class="form-div">
+            <label for="max">max</label>
+            <input type="range" id="max" name="max" min="0" max="100" value="0">
+            <output name="max_output" for="max" id="max_output">?</output>
+        </div>
+        <label for="up" class="choice-label">↑</label>
+        <input type="checkbox" name="up" id="up" value="">
+        <label for="num" class="choice-label">N</label>
+        <input type="checkbox" name="num" id="num" value="">
+        <label for="symbol" class="choice-label">∑</label>
+        <input type="checkbox" name="symbol" id="symbol" value="">
+        <input type="submit" value="try it" id="sub-btn">
+    </form>
+</body>
+
+</html>
