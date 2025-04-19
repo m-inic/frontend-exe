@@ -48,11 +48,11 @@ const modeNameEl = document.getElementById("mode-name")
 function darkMode() {
     toggleCircleEl.classList.toggle("rightSide");
     
-    if(styleLinkEl.attributes[1].nodeValue === "/styles/style.css") {
-        styleLinkEl.attributes[1].nodeValue = "/styles/light-mode.css";
+    if(styleLinkEl.attributes[1].nodeValue === "styles/style.css") {
+        styleLinkEl.attributes[1].nodeValue = "styles/light-mode.css";
         modeNameEl.textContent = "Light mode"
     } else {
-        styleLinkEl.attributes[1].nodeValue = "/styles/style.css";
+        styleLinkEl.attributes[1].nodeValue = "styles/style.css";
         modeNameEl.textContent = "Dark mode"
     }
 }
