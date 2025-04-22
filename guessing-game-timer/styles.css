@@ -245,9 +245,5 @@ main section {
     opacity: 0;
     border-radius: 1rem;
     transition: all 0.2s;
-}
-
-.game-picture:hover {
-    opacity: 1;
-    transition: all 0.2s;
+    cursor: pointer;
 }
