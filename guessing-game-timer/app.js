@@ -4,11 +4,13 @@ let gamePics = document.querySelectorAll(".game-picture");
 const timeNumber = document.getElementById("timer-count");
 const secs = document.getElementById("secs");
 
+let timerStarted = false;
 let firstImg = null;
 let secondImg = null;
 let clickedImg = '';
 let matchingImgs = false;
 let counterInterval;
+let matchCount = 0;
 
 function getFirstImg() {
     firstImg = clickedImg;
@@ -32,9 +34,12 @@ function saveSelection() {
 }
 
 function startTimer() {
-    if (+timeNumber.innerHTML === 90) {
+    if (timerStarted) return;
+    timerStarted = true;
+
+    if (+timeNumber.innerHTML === 30) {
         counterInterval = setInterval(() => {
-            timeNumber.innerHTML = +timeNumber.innerHTML - 89
+            timeNumber.innerHTML = +timeNumber.innerHTML - 1
             if (+timeNumber.innerHTML <= 0) {
                 clearInterval(counterInterval);
                 timeNumber.innerHTML = "Your time is up! Try again!"
@@ -45,17 +50,14 @@ function startTimer() {
     }
 }
 
-// RESTART TIMER FUNCTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 function matchImgs(event) {
     startTimer();
-
     if (event.target.nodeName === "IMG") {
         clickedImg = event.target;
     } else if (clickedImg.nodeName !== "IMG" || clickedImg === firstImg || clickedImg.style.opacity == 1) {
         return;
     }
-
+    
     if (!firstImg) {
         getFirstImg();
         firstImg.style.opacity = 1;
@@ -75,18 +77,30 @@ function matchImgs(event) {
             firstImg.style.pointerEvents = "none";
             secondImg.style.pointerEvents = "none";
             saveSelection();
+            matchCount += 2;
             console.log("its a match");
+        }
+        
+        if(matchCount === gamePics.length) {
+            clearInterval(counterInterval)
+            timeNumber.innerHTML = "Congratulations!!! You won! Try again maybe?";
+            listOfImgs.style.pointerEvents = "none";
+            matchCount = 0;
+            resetSelection();
         }
     }
 }
 
 function restartGame(event) {
     event.preventDefault();
+    clearInterval(counterInterval)
     for (let i = 0; i < gamePics.length; i++) {
         gamePics[i].style.pointerEvents = "auto";
         gamePics[i].style.opacity = 0;
     }
     resetSelection();
+    timeNumber.innerHTML = 30;
+    timerStarted = false;
 }
 
 resetBtn.addEventListener("click", restartGame);
