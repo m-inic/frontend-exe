@@ -47,7 +47,7 @@ function startTimer() {
             timeNumber.innerHTML = +timeNumber.innerHTML - 1;
             if (+timeNumber.innerHTML <= 0) {
                 clearInterval(counterInterval);
-                timeNumber.innerHTML = "Your time is up! Try again!";
+                timeNumber.innerHTML = "Your time is up!";
                 listOfImgs.style.pointerEvents = "none";
                 timerStarted = false;
             }
@@ -112,7 +112,7 @@ function matchImgs(event) {
 
         if (matchCount === gamePics.length) {
             clearInterval(counterInterval)
-            timeNumber.innerHTML = "Congratulations!!! You won! Try again maybe?";
+            timeNumber.innerHTML = "You won!";
             listOfImgs.style.pointerEvents = "none";
             matchCount = 0;
             resetSelection();
