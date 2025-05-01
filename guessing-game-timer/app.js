@@ -44,7 +44,7 @@ function startTimer() {
 
     if (+timeNumber.innerHTML === 45) {
         counterInterval = setInterval(() => {
-            timeNumber.innerHTML = +timeNumber.innerHTML - 45;
+            timeNumber.innerHTML = +timeNumber.innerHTML - 1;
             if (+timeNumber.innerHTML <= 0) {
                 clearInterval(counterInterval);
                 timeNumber.innerHTML = "Your time is up! Try again!";
