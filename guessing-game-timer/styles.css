@@ -29,7 +29,8 @@ h1 {
 
 article {
     position: relative;
-    width: 100%;
+    width: 63rem;
+    margin: 0 auto;
     height: 50rem;
     display: flex;
     justify-content: center;
@@ -42,8 +43,9 @@ article p {
     margin: 0;
     font-size: 1.5rem;
     text-align: center;
-    height: 5rem;
+    height: 8rem;
     border-radius: 1rem;
+    width: 59rem;
 }
 
 article img {
@@ -52,7 +54,6 @@ article img {
     height: 20rem;
     overflow: hidden;
     object-fit: cover;
-    z-index: -1;
     border-radius: 50%;
 }
 
@@ -65,7 +66,7 @@ article img {
     border-left: 9px solid transparent;
     width: 47rem;
     height: 9rem;
-    margin-left: 134px;
+    margin-left: 123px;
     position: absolute;
 }
 
@@ -75,9 +76,9 @@ article img {
     border-top: 52px solid transparent;
     border-right: 17px solid transparent;
     width: 20rem;
-    height: 76px;
+    height: 93px;
     position: absolute;
-    margin-top: 11px;
+    margin-top: 42px;
     border-radius: 1rem;
 }
 
@@ -85,7 +86,7 @@ article img {
     border-top: 5px solid black;
     border-left: 16px solid transparent;
     width: 20rem;
-    height: 76px;
+    height: 94px;
     position: absolute;
     right: 0;
     top: 0;
@@ -98,8 +99,8 @@ article img {
     border-bottom: 5px solid black;
     border-right: 9px solid transparent;
     width: 47rem;
-    margin-right: 134px;
-    height: 139px;
+    margin-right: 124px;
+    height: 187px;
     position: absolute;
     right: 0;
     top: 0;
@@ -124,7 +125,7 @@ article img {
 }
 
 #matcha-cls-holder {
-    left: 12%;
+    left: -10rem;
     top: 2rem;
     border: 5px solid black;
     position: absolute;
@@ -136,16 +137,29 @@ article img {
 }
 
 #matcha-cls {
-    bottom: -36px;
+    bottom: -22px;
     height: 29rem;
     border-radius: 0;
 }
 
-#cat-cls {
-    right: 12%;
+#cat-cls-holder {
+    right: -10rem;
     bottom: 2rem;
-
     border: 5px solid black;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+    background: radial-gradient(#2a6e79, #40575d);
+}
+
+#cat-cls {
+    height: 18rem;
+    width: 20rem;
+    top: 2.5rem;
+    border-radius: 0;
 }
 
 main {
@@ -254,9 +268,210 @@ main section {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1440px) {
+    article {
+        max-width: 864px;
+    }
+
+    article p {
+        height: 8rem;
+        width: 50rem;
+    }
+
+    #topL {
+        width: 30rem;
+        margin-left: 138px;
+    }
+
+    #botL {
+        bottom: 0;
+        height: 7.2rem;
+    }
+
+    #topR {
+        height: 116px;
+    }
+
+    #botR {
+        top: unset;
+        bottom: 0;
+        width: 40rem;
+        margin-right: 138px;
+    }
+
+    #matcha-cls-holder {
+        width: 17rem;
+        height: 17rem;
+        top: 4rem;
+        left: -6rem;
+    }
+
+    #cat-cls-holder {
+        width: 17rem;
+        height: 17rem;
+        bottom: 4rem;
+        right: -6rem;
+    }
+
+    #matcha-cls {
+        bottom: 4px;
+        height: 23rem;
+        right: -2rem;
+    }
+
+    #cat-cls {
+        right: 0px;
+        width: 17rem;
+        height: 17rem;
+        top: 23px;
+    }
+
+    main {
+        margin: 10rem auto;
+        max-width: 60rem;
+    }
+
+    main section {
+        height: 50rem;
+        width: 90%;
+    }
+
+    #game-holder {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 25rem;
+        padding: 6px 6px 6px 6px;
+    }
+
+    .game-picture {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #game-description-container h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1090px) {
+    article {
+        scale: 0.95;
+    }
+}
+
+@media (max-width: 1024px) {
+    article {
+        width: unset;
+    }
+    
+    article p {
+        padding: 3rem;
+        width: 33rem;
+        height: 11rem;
+    }
+
+    #topL {
+        display: none;
+    }
+
+    #botL {
+        width: 19rem;
+        height: 5rem;
+        margin: 0;
+        bottom: 0;
+    }
+
+    #topR {
+        width: 19rem;
+    }
+
+    #botR {
+        display: none;
+    }
+
+    #matcha-cls-holder {
+        left: 3%;
+        width: 15rem;
+        height: 15rem;
+        z-index: 0;
+        top: 3rem;
+    }
+
+    #matcha-cls {
+        bottom: -34px;
+        height: 20rem;
+        right: 0rem;
+    }
+
+    #cat-cls-holder {
+        right: 3%;
+        width: 15rem;
+        height: 15rem;
+        z-index: 0;
+        bottom: 3rem;
+    }
+
+    #cat-cls {
+        width: 15rem;
+        height: 15rem;
+        top: 0;
+        right: 0;
+    }
+
+    article img {
+        width: 15rem;
+        height: 15rem;
+        z-index: 0;
+    }
+
+    #cat-cls {
+        right: 0;
+        bottom: 0;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #cat-icn {
+        bottom: 5.5rem;
+        left: 20%;
+    }
+
+    #latte-icn {
+        top: 9rem;
+        right: 20%;
+    }
+
+    main section {
+        height: 50rem;
+        width: 90%;
+    }
+
+    #game-holder {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 25rem;
+        padding: 6px 6px 6px 6px;
+    }
+
+    .game-picture {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #game-description-container h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
     body {
         height: 120rem;
+    }
+
+    article {
+        width: unset;
     }
 
     h1 {
@@ -282,6 +497,8 @@ main section {
     #cat-cls {
         right: -50px;
         bottom: 1rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     #matcha-cls-holder {
@@ -289,6 +506,20 @@ main section {
         width: 10rem;
         left: -50px;
         top: 1rem;
+    }
+
+    #cat-cls-holder {
+        height: 10rem;
+        width: 10rem;
+        right: -50px;
+        bottom: 1rem;
+    }
+
+    #cat-cls {
+        right: unset;
+        bottom: unset;
+        width: 10rem;
+        height: 10rem;
     }
 
     article img {
@@ -334,14 +565,15 @@ main section {
 
     main section {
         height: 47rem;
-        width: 19rem;
+        width: 80%;
         justify-content: space-evenly;
     }
 
     #game-holder {
-        width: 13rem;
+        width: 70%;
         grid-template-columns: 1fr 1fr 1fr;
         height: 28rem;
+        max-width: 302px;
         padding: 6px 6px 6px 6px;
     }
 
@@ -371,12 +603,4 @@ main section {
     #restart-btn {
         margin: 1rem 0rem 1rem 0rem;
     }
-}
-
-@media (max-width: 1024px) {
-    
-}
-
-@media (max-width: 1440px) {
-    
 }
