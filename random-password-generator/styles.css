@@ -13,7 +13,7 @@
 
 body {
     background: black;
-    height: 100vh;
+    height: 98vh;
     width: 100%;
     margin: 0;
     color: greenyellow;
@@ -168,4 +168,47 @@ input[type="submit"] {
     font-family: "Electrolize";
     font-size: 1rem;
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #heading-div {
+        width: 272px;
+    }
+
+    h1 {
+        width: 14rem;
+    }
+
+    form {
+        width: 240px;
+        gap: 1rem;
+        padding: 1rem;
+        height: 25rem;
+    }
+
+    .form-div {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 235px;
+        margin: 0 auto 0 auto;
+        height: 2rem;
+    }
+
+    .choice-label {
+        width: 6rem;
+        height: 1rem;
+    }
+
+    input[type=checkbox] {
+        margin-left: 55px;
+    }
+
+    input[type="submit"] {
+        left: 104px;
+        bottom: 11px;
+        width: 4rem;
+    }
 }
