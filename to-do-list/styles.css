@@ -48,6 +48,7 @@ header nav {
     width: 100%;
 }
 
+
 #top-nav {
     margin: 0;
     display: flex;
@@ -380,6 +381,7 @@ footer p {
     display: flex;
     color: #FCFFAF;
     margin-top: 8rem;
+    padding: 0 1rem 0 1rem;
 }
 
 #footer-div div {
@@ -415,4 +417,172 @@ span {
 #footer-div h1 {
     font-family: 'Oranienbaum';
     letter-spacing: 3px;
+    width: 240px;
+    direction: rtl;
+}
+
+@media (max-width: 1440px) {
+    main {
+        flex-direction: column;
+        height: 55rem;
+    }
+
+    #form-holder {
+        width: 35rem;
+        height: 22rem;
+    }
+
+    #task-holder {
+        width: 35rem;
+        height: 22rem;
+    }
+
+    #task-list {
+        width: 32rem;
+        height: 15rem;
+    }
+
+    #label-task {
+        font-size: 1.7rem;
+        word-spacing: 7px;
+    }
+
+    #task-form {
+        height: 17rem;
+    }
+
+    #task {
+        height: 10rem;
+    }
+
+    #task-btn {
+        width: 6rem;
+        box-shadow: 0px 7px 3px 0 #1e1e1e;
+    }
+
+    #form-holder p {
+        font-family: "Oranienbaum";
+        font-size: 1.7rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .task-list-item {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 750px) {
+    #top-nav {
+        display: none;
+    }
+
+    #task-form {
+        height: 16rem;
+        width: 80%;
+        max-width: 25rem;
+    }
+
+    #label-task {
+        margin-bottom: 1rem;
+    }
+
+    #task {
+        width: 100%;
+    }
+
+    #form-holder {
+        width: 100%;
+        height: 20rem;
+        box-shadow: 0px 0px 20px 20px #21212130;
+        border-radius: 0;
+    }
+
+    #form-holder p {
+        font-size: 1.3rem;
+    }
+
+    #task-btn {
+        margin-top: 1rem;
+        box-shadow: 0px 4px 3px 0 #1e1e1e;
+    }
+
+    #task-holder {
+        width: 100%;
+        height: 20rem;
+        border-radius: 0;
+        box-shadow: 0px 0px 20px 20px #21212130;
+    }
+
+    #task-list {
+        width: 80%;
+        max-width: 25rem;
+    }
+
+    .task-list-item {
+        width: 13rem;
+    }
+
+    #landing h1 {
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    #newsletter {
+        width: 100%;
+        border-radius: 0;
+        border: 0;
+        height: 38rem;
+    }
+
+    #newsletter h2 {
+        font-size: 1.4rem;
+    }
+
+    #label-input-holder {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3.5rem;
+        align-items: center;
+        width: 15rem;
+    }
+
+    #footer-heading-holder {
+        height: 10rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #newsletter label {
+        margin-left: 0rem;
+        font-family: "Oranienbaum";
+        font-size: 1.3rem;
+        color: #fcffaf;
+        height: 1.5rem;
+        width: 95px;
+    }
+
+    #newsletter input {
+        margin-right: 0;
+        width: 8rem;
+    }
+
+    #footer-div {
+        margin-top: 6rem;
+    }
+
+    footer p {
+        font-size: 2rem;
+    }
+
+    footer ul {
+        width: 7rem;
+    }
+
+    #footer-div div {
+        width: 7rem;
+    }
+
+    #footer-div h1 {
+        width: 7rem;
+        font-size: 1.5rem;
+    }
 }
