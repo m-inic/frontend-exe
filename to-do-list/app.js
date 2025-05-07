@@ -4,6 +4,8 @@ const taskEl = document.getElementById("task");
 let taskList = document.getElementById("task-list");
 const taskListItem = document.querySelector("task-list-item");
 const taskBtn = document.getElementById("task-btn");
+const burgBtn = document.getElementById("burg-wraper");
+const menu = document.querySelector(".top-nav");
 
 getToEl.addEventListener("click", (event) => {
     event.preventDefault()
@@ -35,9 +37,22 @@ function addLiToList(event) {
 taskBtn.addEventListener("click", addLiToList);
 
 taskList.addEventListener("click", (event) => {
-    for(let i = 0; i < taskList.children.length; i++) {
-        if(event.target.tagName === 'BUTTON') {
+    for (let i = 0; i < taskList.children.length; i++) {
+        if (event.target.tagName === 'BUTTON') {
             event.target.parentElement.style.display = "none"
         }
     }
 })
+
+function openMenu(event) {
+    if (window.innerWidth <= 750) {
+        if (menu.style.display === "flex") {
+            menu.style.display = "none";
+        } else {
+            menu.classList.remove("animate__fadeOutUp")
+            menu.style.display = "flex";
+        }
+    }
+}
+
+burgBtn.addEventListener("click", openMenu);
