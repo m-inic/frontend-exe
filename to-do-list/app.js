@@ -47,10 +47,18 @@ taskList.addEventListener("click", (event) => {
 function openMenu(event) {
     if (window.innerWidth <= 750) {
         if (menu.style.display === "flex") {
-            menu.style.display = "none";
+            menu.classList.remove("animate__fadeInDown");
+            menu.classList.add("animate__fadeOutUp");
+
+            menu.addEventListener("animationend", function handleAnimEnd() {
+                menu.style.display = "none";
+                menu.classList.remove("animate__fadeOutUp");
+                menu.removeEventListener("animationend", handleAnimEnd);
+            });
         } else {
             menu.classList.remove("animate__fadeOutUp")
             menu.style.display = "flex";
+            menu.classList.add("animate__fadeInDown");
         }
     }
 }
