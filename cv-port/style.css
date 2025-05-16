@@ -11,6 +11,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 nav h2 {
@@ -51,7 +52,7 @@ nav h1 span {
 }
 
 #poly1 img {
-    width: 20rem;
+    width: 18rem;
 }
 
 #links-frame-1 {
@@ -115,3 +116,90 @@ aside p {
     font-size: 1.4rem;
     width: 6.5rem;
 }
+
+#landing {
+    margin: -22rem 0 0 18.5rem;
+    height: 45rem;
+}
+
+#landing-intro-text-container {
+    width: 24rem;
+    position: relative;
+}
+
+#landing-intro-text-container p {
+    color: white;
+    font-size: 19px;
+}
+
+#landing-intro-text-container p span {
+    color: #f5c372;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+}
+
+#landing-snake-1-cont {
+    position: absolute;
+    top: 0;
+}
+
+#landing-snake-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    border: 3px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+    left: 18rem;
+    top: 13px;
+}
+
+#landing-snake-1::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100px;
+}
+
+#landing-snake-1::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100px;
+}
+
+#landing-snake-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    border: 3px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(225deg);
+    left: 3rem;
+    top: 60px;
+}
+
+#landing-snake-2::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100px;
+}
+
+#landing-snake-2::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100px;
+}
+
+#landing-mid-t {
+    width: 300px;
+    direction: rtl;
+}
+
+#fence img {}
