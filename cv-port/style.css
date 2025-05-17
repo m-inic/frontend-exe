@@ -32,7 +32,7 @@ nav h2 {
 nav h1 {
     font-size: 4rem;
     font-weight: 400;
-    margin: 0 48px 0 0;
+    margin: 0 65px 0 0;
     width: 100%;
     text-align: right;
     display: block;
@@ -46,13 +46,14 @@ nav h1 span {
 
 #poly1 {
     position: absolute;
-    top: -16px;
+    top: -20px;
     right: -16px;
     z-index: -1;
 }
 
 #poly1 img {
-    width: 18rem;
+    width: 19rem;
+    height: 22rem;
 }
 
 #links-frame-1 {
@@ -118,13 +119,17 @@ aside p {
 }
 
 #landing {
-    margin: -22rem 0 0 18.5rem;
+    margin: -19rem 0 0 17.6rem;
     height: 45rem;
 }
 
 #landing-intro-text-container {
     width: 24rem;
     position: relative;
+    top: -1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #landing-intro-text-container p {
@@ -145,61 +150,118 @@ aside p {
 
 #landing-snake-1 {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 60%;
     border: 3px solid white;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(45deg);
-    left: 18rem;
-    top: 13px;
+    left: 5.5rem;
+    top: 37px;
 }
 
 #landing-snake-1::before {
     content: "";
     position: absolute;
     width: 3px;
-    height: 100px;
+    height: 22px;
+    background: white;
+    left: 44.5px;
+    transform: rotate(45deg);
+    top: 56px;
 }
 
 #landing-snake-1::after {
     content: "";
     position: absolute;
     width: 3px;
-    height: 100px;
+    height: 10px;
+    background: white;
+    left: 1px;
+    transform: rotate(45deg);
+    top: 9px;
 }
 
 #landing-snake-2 {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 60%;
     border: 3px solid white;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(225deg);
-    left: 3rem;
-    top: 60px;
+    left: 2.5rem;
+    top: 105px;
 }
 
 #landing-snake-2::before {
     content: "";
     position: absolute;
     width: 3px;
-    height: 100px;
+    bottom: -30px;
+    right: 93px;
+    height: 97px;
+    background: white;
+    transform: rotate(225deg);
 }
+
 
 #landing-snake-2::after {
     content: "";
+    bottom: -10px;
+    right: 16px;
+    background: white;
+    transform: rotate(225deg);
     position: absolute;
     width: 3px;
-    height: 100px;
+    height: 18px;
+}
+
+#landing-left-t {
+    width: 100%;
 }
 
 #landing-mid-t {
     width: 300px;
-    direction: rtl;
+    text-align: center;
 }
 
-#fence img {}
+#landing-right-t {
+    text-align: end;
+    width: 100%;
+}
+
+#fence {
+    margin-top: -2rem;
+}
+
+#fence img {
+    width: 679px;
+    height: 350px;
+}
+
+#adapt-text-cont {
+    margin: -62px 0px 0px 0px;
+}
+
+#adapt-text-cont p {
+    font-size: 1.5rem;
+}
+
+#adapt-text-cont span {
+    background: linear-gradient(135deg, #ffffff, #f5c372);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 700;
+    filter: drop-shadow(-1px 3px rgb(0, 0, 0));
+}
+
+#adapt-text-cont img {
+    width: 26rem;
+    position: absolute;
+    bottom: 136px;
+    right: 3px;
+}
