@@ -24,9 +24,98 @@ nav h2 {
     position: absolute;
     width: 3px;
     background: white;
-    height: 40rem;
-    top: 16px;
+    height: 41rem;
+    top: 0;
     left: 22%;
+}
+
+#line-2 {
+    position: absolute;
+    width: 3px;
+    background: white;
+    height: 2rem;
+    bottom: 235px;
+    left: 22%;
+    z-index: 1;
+}
+
+#line-2::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background: #000000;
+    height: 6rem;
+    left: 22%;
+    top: 32px;
+    z-index: 1;
+}
+
+#line-3 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid black;
+    background: transparent;
+    height: 3rem;
+    bottom: 108px;
+    left: 22%;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-45deg);
+}
+
+#line-4 {
+    position: absolute;
+    width: 55px;
+    background: transparent;
+    height: 3rem;
+    bottom: 108px;
+    left: 25.15%;
+    border-bottom: 3px solid black;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+#line-5 {
+    position: absolute;
+    width: 44.2%;
+    background: #ffffff00;
+    height: 3px;
+    bottom: 108px;
+    left: 30.8%;
+    border-bottom: 3px solid #ffffff;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+#line-6 {
+    position: absolute;
+    width: 128px;
+    height: 3px;
+    bottom: 108px;
+    right: 12%;
+    border-bottom: 3px solid #ffffff;
+}
+
+#line-6::after {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    height: 3rem;
+    bottom: -54px;
+    right: -31px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(135deg);
 }
 
 nav h1 {
@@ -264,4 +353,14 @@ aside p {
     position: absolute;
     bottom: 136px;
     right: 3px;
+}
+
+#poly-2-cont {
+    position: absolute;
+    left: -41px;
+    bottom: -60px;
+}
+
+#poly-2-cont img {
+    width: 24rem;
 }
