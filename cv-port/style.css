@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background: linear-gradient(135deg, #bbbbbb, #989898);
+    background: url(pics/grid-bg.png), linear-gradient(135deg, #bbbbbb, #989898);
     font-family: "Poppins", sans-serif;
     margin: 0;
     max-width: 1600px;
@@ -18,6 +18,15 @@ nav h2 {
     margin-left: 1rem;
     width: 8rem;
     line-height: 1.7rem;
+}
+
+#lines-1 {
+    width: 899px;
+    height: 908px;
+    position: relative;
+    left: -17.6rem;
+    top: -691px;
+    max-width: 900px;
 }
 
 #line-1 {
@@ -68,11 +77,11 @@ nav h2 {
 
 #line-4 {
     position: absolute;
-    width: 55px;
+    width: 73px;
     background: transparent;
     height: 3rem;
     bottom: 108px;
-    left: 25.15%;
+    left: 229px;
     border-bottom: 3px solid black;
     z-index: 1;
     border-top-color: transparent;
@@ -86,7 +95,7 @@ nav h2 {
     background: #ffffff00;
     height: 3px;
     bottom: 108px;
-    left: 30.8%;
+    left: 302px;
     border-bottom: 3px solid #ffffff;
     z-index: 1;
     border-top-color: transparent;
@@ -363,4 +372,46 @@ aside p {
 
 #poly-2-cont img {
     width: 24rem;
+}
+
+main {
+    position: relative;
+    height: 37rem;
+}
+
+#line-7 {
+    position: absolute;
+    width: 3px;
+    background: white;
+    height: 42rem;
+    top: -29px;
+    right: 163px;
+}
+
+#line-8 {}
+
+#line-9 {}
+
+#line-10 {}
+
+#line-11 {}
+
+main aside {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#my-projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23rem;
+    width: 5rem;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 54rem;
 }
