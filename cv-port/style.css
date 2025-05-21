@@ -144,14 +144,14 @@ nav h1 span {
 
 #poly1 {
     position: absolute;
-    top: -20px;
-    right: -16px;
+    top: -28px;
+    right: -47px;
     z-index: -1;
 }
 
 #poly1 img {
-    width: 19rem;
-    height: 22rem;
+    width: 23rem;
+    height: 25rem;
 }
 
 #links-frame-1 {
@@ -366,8 +366,8 @@ aside p {
 
 #poly-2-cont {
     position: absolute;
-    left: -41px;
-    bottom: -60px;
+    left: -51px;
+    bottom: -75px;
 }
 
 #poly-2-cont img {
@@ -376,42 +376,98 @@ aside p {
 
 main {
     position: relative;
-    height: 37rem;
+    height: 53rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#slide-cont {
+    background: linear-gradient(0deg, #F5C372, #F4D6A7);
+    width: 38rem;
+    height: 24rem;
+    position: relative;
+    left: 10.8%;
+    border-radius: 1rem;
+    display: flex;
+
+}
+
+#slide-cont-after {
+    content: "";
+    display: block;
+    width: 39rem;
+    height: 25rem;
+    background-color: #00000000;
+    position: absolute;
+    left: 95.5px;
+    border: 3px solid white;
+    border-radius: 1.5rem;
+}
+
+#arrows {
+    
 }
 
 #line-7 {
     position: absolute;
     width: 3px;
     background: white;
-    height: 42rem;
+    height: 60rem;
     top: -29px;
     right: 163px;
 }
 
-#line-8 {}
+#line-8 {
+    position: absolute;
+}
 
-#line-9 {}
+#line-9 {
+    position: absolute;
+}
 
-#line-10 {}
+#line-10 {
+    position: absolute;
+}
 
-#line-11 {}
+#line-11 {
+    position: absolute;
+}
 
 main aside {
     position: relative;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 163px;
+    height: 23rem;
 }
 
 #my-projects-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 23rem;
+    height: 367px;
     width: 5rem;
     text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
     position: relative;
-    left: 54rem;
+    color: white;
+}
+
+#todo {
+    color: #000000;
+}
+
+#poly-3-cont {
+    position: absolute;
+    right: -90px;
+    top: 290px;
+    z-index: -1;
+}
+
+#poly-3-cont img {
+    width: 17rem;
 }
