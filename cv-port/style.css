@@ -7,14 +7,14 @@ body {
     margin: auto;
 }
 
-header nav {
+header aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-nav h2 {
+aside h2 {
     margin-left: 1rem;
     width: 8rem;
     line-height: 1.7rem;
@@ -27,12 +27,13 @@ nav h2 {
     left: -17.6rem;
     top: -691px;
     max-width: 900px;
+    z-index: -1;
 }
 
 #line-1 {
     position: absolute;
     width: 3px;
-    background: white;
+    background: #f7f7f7;
     height: 41rem;
     top: 0;
     left: 22%;
@@ -41,7 +42,7 @@ nav h2 {
 #line-2 {
     position: absolute;
     width: 3px;
-    background: white;
+    background: #f7f7f7;
     height: 2rem;
     bottom: 235px;
     left: 22%;
@@ -96,7 +97,7 @@ nav h2 {
     height: 3px;
     bottom: 108px;
     left: 302px;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #f7f7f7;
     z-index: 1;
     border-top-color: transparent;
     border-right-color: transparent;
@@ -109,14 +110,14 @@ nav h2 {
     height: 3px;
     bottom: 108px;
     right: 12%;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #f7f7f7;
 }
 
 #line-6::after {
     content: "";
     position: absolute;
     width: 3rem;
-    border: 3px solid #ffffff;
+    border: 3px solid #f7f7f7;
     height: 3rem;
     bottom: -54px;
     right: -31px;
@@ -127,7 +128,7 @@ nav h2 {
     transform: rotate(135deg);
 }
 
-nav h1 {
+aside h1 {
     font-size: 4rem;
     font-weight: 400;
     margin: 0 65px 0 0;
@@ -136,10 +137,17 @@ nav h1 {
     display: block;
 }
 
-nav h1 span {
+aside h1 span {
     color: white;
     font-weight: 700;
     margin-left: 4rem;
+}
+
+
+.nav-menu-link {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 #poly1 {
@@ -158,15 +166,15 @@ nav h1 span {
     position: absolute;
     width: 5rem;
     height: 3px;
-    background: white;
+    background: #f7f7f7;
 }
 
 #links-frame-2 {
     position: absolute;
     width: 1rem;
     height: 3px;
-    background: white;
-    top: 6.4rem;
+    background: #f7f7f7;
+    top: 7rem;
 }
 
 #links-frame-3-cont {
@@ -181,43 +189,48 @@ nav h1 span {
     position: absolute;
     width: 9rem;
     left: -5rem;
-    height: 100px;
+    height: 109px;
     border-radius: 4rem;
-    border: 3px solid white;
+    border: 3px solid #f7f7f7;
 }
 
 #links-frame-4 {
     position: absolute;
     width: 5rem;
     height: 3px;
-    background: white;
-    top: 6.4rem;
+    background: #f7f7f7;
+    top: 7rem;
     left: 1.5rem;
 }
 
-header aside {
+header nav {
     display: flex;
     flex-direction: column;
-    height: 20rem;
+    height: 30rem;
     width: 11rem;
     margin-left: 1rem;
     position: relative;
 }
 
-header aside ul {
+header nav ul {
     padding: 0;
-    margin: 16px;
+    margin: 0 0 0 16px;
+    height: 7rem;
     list-style-type: '- ';
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-aside p {
+nav p {
+    margin-top: 2rem;
     font-size: 1.4rem;
     width: 6.5rem;
 }
 
 #landing {
-    margin: -19rem 0 0 17.6rem;
+    margin: -29rem 0 0 17.6rem;
     height: 45rem;
 }
 
@@ -251,7 +264,7 @@ aside p {
     width: 65px;
     height: 65px;
     border-radius: 60%;
-    border: 3px solid white;
+    border: 3px solid #f7f7f7;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(45deg);
@@ -264,7 +277,7 @@ aside p {
     position: absolute;
     width: 3px;
     height: 22px;
-    background: white;
+    background: #f7f7f7;
     left: 44.5px;
     transform: rotate(45deg);
     top: 56px;
@@ -275,7 +288,7 @@ aside p {
     position: absolute;
     width: 3px;
     height: 10px;
-    background: white;
+    background: #f7f7f7;
     left: 1px;
     transform: rotate(45deg);
     top: 9px;
@@ -286,7 +299,7 @@ aside p {
     width: 65px;
     height: 65px;
     border-radius: 60%;
-    border: 3px solid white;
+    border: 3px solid #f7f7f7;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(225deg);
@@ -301,7 +314,7 @@ aside p {
     bottom: -30px;
     right: 93px;
     height: 97px;
-    background: white;
+    background: #f7f7f7;
     transform: rotate(225deg);
 }
 
@@ -310,7 +323,7 @@ aside p {
     content: "";
     bottom: -10px;
     right: 16px;
-    background: white;
+    background: #f7f7f7;
     transform: rotate(225deg);
     position: absolute;
     width: 3px;
@@ -368,6 +381,7 @@ aside p {
     position: absolute;
     left: -51px;
     bottom: -75px;
+    z-index: -2;
 }
 
 #poly-2-cont img {
@@ -376,7 +390,7 @@ aside p {
 
 main {
     position: relative;
-    height: 53rem;
+    height: 50rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -385,10 +399,11 @@ main {
 
 #slide-cont {
     background: linear-gradient(0deg, #F5C372, #F4D6A7);
-    width: 38rem;
+    width: 610px;
     height: 24rem;
     position: relative;
     left: 10.8%;
+    bottom: 35px;
     border-radius: 1rem;
     display: flex;
 
@@ -402,18 +417,25 @@ main {
     background-color: #00000000;
     position: absolute;
     left: 95.5px;
-    border: 3px solid white;
+    top: 162px;
+    border: 3px solid #f7f7f7;
     border-radius: 1.5rem;
 }
 
 #arrows {
-    
+    width: 610px;
+    height: 5rem;
+    position: absolute;
+    left: 10.8%;
+    bottom: 7rem;
+    display: flex;
+    justify-content: center;
 }
 
 #line-7 {
     position: absolute;
     width: 3px;
-    background: white;
+    background: #f7f7f7;
     height: 60rem;
     top: -29px;
     right: 163px;
@@ -421,18 +443,22 @@ main {
 
 #line-8 {
     position: absolute;
+    background: #f7f7f7;
 }
 
 #line-9 {
     position: absolute;
+    background: #f7f7f7;
 }
 
 #line-10 {
     position: absolute;
+    background: #f7f7f7;
 }
 
 #line-11 {
     position: absolute;
+    background: #f7f7f7;
 }
 
 main aside {
@@ -441,6 +467,7 @@ main aside {
     justify-content: center;
     width: 163px;
     height: 23rem;
+    bottom: 2rem;
 }
 
 #my-projects-list {
