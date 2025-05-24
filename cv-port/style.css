@@ -150,6 +150,21 @@ aside h1 span {
     transition: 0.2s;
 }
 
+.nav-menu-link::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1.5rem;
+    left: 16px;
+    border-bottom: 3px solid #f7f7f7;
+    transition: 0.2s;
+}
+
+.nav-menu-link:hover:after {
+    width: 80px;
+    transition: 0.2s;
+}
+
 #poly1 {
     position: absolute;
     top: -28px;
@@ -400,13 +415,13 @@ main {
 #slide-cont {
     background: linear-gradient(0deg, #F5C372, #F4D6A7);
     width: 610px;
-    height: 24rem;
+    height: 386px;
     position: relative;
     left: 10.8%;
     bottom: 35px;
     border-radius: 1rem;
     display: flex;
-
+        overflow-y: hidden;
 }
 
 #slide-cont-after {
@@ -420,16 +435,30 @@ main {
     top: 162px;
     border: 3px solid #f7f7f7;
     border-radius: 1.5rem;
+    box-shadow: 0px 0px 20px 0px #ffffffbf;
 }
 
 #arrows {
     width: 610px;
-    height: 5rem;
+    height: 4rem;
     position: absolute;
     left: 10.8%;
     bottom: 7rem;
     display: flex;
     justify-content: center;
+    transition: 0.2s;
+}
+
+#arr-left:hover {
+    filter: invert();
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#arr-right:hover {
+    filter: invert();
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 #line-7 {
@@ -484,7 +513,21 @@ main aside {
     color: white;
 }
 
-#todo {
+#my-projects-list a {
+    text-decoration: none;
+    color:#f7f7f7;
+}
+
+#my-projects-list li {
+    transition: 0.2s;
+}
+
+#my-projects-list li:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#todo a {
     color: #000000;
 }
 
