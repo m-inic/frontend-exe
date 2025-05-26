@@ -150,7 +150,7 @@ aside h1 span {
     transition: 0.2s;
 }
 
-.nav-menu-link::after {
+#nav-menu-link-1::after {
     content: "";
     position: absolute;
     width: 0px;
@@ -160,8 +160,38 @@ aside h1 span {
     transition: 0.2s;
 }
 
-.nav-menu-link:hover:after {
-    width: 80px;
+#nav-menu-link-2::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1.5rem;
+    left: 16px;
+    border-bottom: 3px solid #f7f7f7;
+    transition: 0.2s;
+}
+
+#nav-menu-link-3::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1.5rem;
+    left: 16px;
+    border-bottom: 3px solid #f7f7f7;
+    transition: 0.2s;
+}
+
+#nav-menu-link-1:hover:after {
+    width: 68px;
+    transition: 0.2s;
+}
+
+#nav-menu-link-2:hover:after {
+    width: 79px;
+    transition: 0.2s;
+}
+
+#nav-menu-link-3:hover:after {
+    width: 64px;
     transition: 0.2s;
 }
 
@@ -421,7 +451,16 @@ main {
     bottom: 35px;
     border-radius: 1rem;
     display: flex;
-        overflow-y: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+#slide-cont::-webkit-scrollbar {
+    display: none;
+}
+
+#slide-img-4 {
+    height: 430px;
 }
 
 #slide-cont-after {
@@ -436,6 +475,12 @@ main {
     border: 3px solid #f7f7f7;
     border-radius: 1.5rem;
     box-shadow: 0px 0px 20px 0px #ffffffbf;
+}
+
+.slide-img {
+    width: 610px;
+    height: 386px;
+    object-fit: cover;
 }
 
 #arrows {
@@ -465,29 +510,57 @@ main {
     position: absolute;
     width: 3px;
     background: #f7f7f7;
-    height: 60rem;
+    height: 50rem;
     top: -29px;
     right: 163px;
 }
 
 #line-8 {
     position: absolute;
-    background: #f7f7f7;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    bottom: -2px;
+    right: 163px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
 }
 
 #line-9 {
     position: absolute;
-    background: #f7f7f7;
+    width: 40rem;
+    background: #ffffff00;
+    height: 3px;
+    bottom: -2px;
+    left: 151px;
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 #line-10 {
     position: absolute;
-    background: #f7f7f7;
+    width: 2rem;
+    height: 2rem;
+    bottom: -26px;
+    left: 88px;
+    border-left: 3px solid #f7f7f7;
+    border-top: 3px solid #f7f7f7;
 }
 
 #line-11 {
     position: absolute;
-    background: #f7f7f7;
+    width: 3rem;
+    height: 2rem;
+    bottom: -34px;
+    left: 96px;
+    border-left: 3px solid #f7f7f7;
+    border-top: 3px solid #f7f7f7;
 }
 
 main aside {
