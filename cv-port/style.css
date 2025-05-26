@@ -588,7 +588,7 @@ main aside {
 
 #my-projects-list a {
     text-decoration: none;
-    color:#f7f7f7;
+    color: #f7f7f7;
 }
 
 #my-projects-list li {
@@ -614,3 +614,229 @@ main aside {
 #poly-3-cont img {
     width: 17rem;
 }
+
+#about-me {
+    max-width: 565px;
+    margin: auto;
+    position: relative;
+}
+
+#about-me h2 {
+    margin: 45px 0 45px -70px;
+}
+
+#about-me h2 span {
+    color: #F5C372;
+    text-shadow: 0px 0px 2px black;
+    font-size: 28px;
+}
+
+#about-me-text-cont {
+
+}
+
+#motivation {
+    background: -webkit-linear-gradient(#ff9d00, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #00000000;
+    font-weight: 700;
+    text-shadow: 0px -1px #ff9d0036;
+}
+
+#line-12 {
+    position: absolute;
+    width: 3px;
+    background: #f7f7f7;
+    height: 11rem;
+    top: -11px;
+    left: -114px;
+    z-index: 1;
+}
+
+#line-13 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 138px;
+    left: -165px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
+    z-index: 1;
+}
+
+#line-14 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 138px;
+    left: -114px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(315deg);
+    z-index: 1;
+}
+
+#line-15 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 189px;
+    left: -114px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(135deg);
+    z-index: 1;
+}
+
+#line-16 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 189px;
+    left: -165px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+#line-17 {
+    position: absolute;
+    width: 3px;
+    background: #f7f7f7;
+    height: 6rem;
+    top: 216px;
+    left: -165px;
+    z-index: 1;
+}
+
+#line-18 {
+    position: absolute;
+    width: 3px;
+    background: #f7f7f7;
+    height: 6rem;
+    top: 216px;
+    left: -63px;
+    z-index: 1;
+}
+
+#line-19 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 285px;
+    left: -165px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(315deg);
+    z-index: 1;
+}
+
+#line-20 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 285px;
+    left: -114px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
+    z-index: 1;
+}
+
+#line-21 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 336px;
+    left: -114px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+#line-22 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    height: 3rem;
+    top: 336px;
+    left: -165px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(135deg);
+    z-index: 1;
+}
+
+#line-23 {
+    position: absolute;
+    width: 3px;
+    background: #f7f7f7;
+    height: 14rem;
+    bottom: 80px;
+    left: -114px;
+}
+
+#invisible-parts {
+    width: 105px;
+    height: 180px;
+    position: absolute;
+    top: 174px;
+    left: -165px;
+}
+
+#about-me-picture {
+    width: 105px;
+    height: 180px;
+    position: absolute;
+    top: 174px;
+    left: -165px;
+    background: black;
+    z-index: -1;
+    border-radius: 2rem;
+}
+
+#line-24 {}
+
+#line-25 {}
+
+#line-26 {}
+
+#line-27 {}
+
+#line-28 {}
+
+#line-29 {}
+
+#line-30 {}
+
+#line-31 {}
+
+#line-32 {}
+
+#line-33 {}
