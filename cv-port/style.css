@@ -807,8 +807,8 @@ main aside {
     position: absolute;
     width: 3px;
     background: #f7f7f7;
-    height: 5rem;
-    bottom: 282px;
+    height: 94px;
+    bottom: 263px;
     left: -114px;
     z-index: 1;
 }
@@ -858,10 +858,10 @@ main aside {
     position: absolute;
     width: 3px;
     background: #000000;
-    height: 6.5rem;
-    right: 122px;
+    height: 9.3rem;
+    right: 113px;
     z-index: 1;
-    top: 53px;
+    top: 41px;
 }
 
 #line-25 {
@@ -870,52 +870,126 @@ main aside {
     border: 3px solid black;
     background: transparent;
     height: 3rem;
-    bottom: 72px;
+    bottom: 76px;
     z-index: 1;
     border-radius: 50%;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(-45deg);
-    right: 71px;
+    right: 62px;
 }
 
 #line-26 {
     position: absolute;
+    width: 1rem;
+    bottom: 76px;
+    left: 167px;
+    border-bottom: 3px solid #000000;
 }
 
 #line-27 {
     position: absolute;
+    width: 50rem;
+    height: 3px;
+    background: #ffffff00;
+    bottom: 76px;
+    left: 180px;
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 #line-28 {
     position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    background: transparent;
+    height: 3rem;
+    bottom: 76px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
+    left: 953px;
 }
 
 #line-29 {
     position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    background: transparent;
+    height: 3rem;
+    bottom: 76px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(135deg);
+    left: 953px;
 }
 
 #line-30 {
     position: absolute;
+    width: 3rem;
+    border: 3px solid #f7f7f7;
+    background: transparent;
+    height: 3rem;
+    bottom: 76px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    left: 953px;
 }
 
 #line-31 {
     position: absolute;
+    width: 45rem;
+    transform: rotate(90deg);
+    height: 3px;
+    background: #ffffff00;
+    top: 510px;
+    left: 596px;
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 #line-32 {
     position: absolute;
+    width: 45rem;
+    transform: rotate(90deg);
+    height: 3px;
+    background: #ffffff00;
+    top: 546px;
+    left: -217px;
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 #line-33 {
     position: absolute;
 }
 
+/* PRAVIM SLIKU ZA CURSOR KAD PREDJE ZUTE POVRSINE!!!!!!! */
+
 #lines-poly {
     position: absolute;
-    bottom: 30px;
-    left: -122px;
+    bottom: 0px;
+    left: -131px;
 }
 
 #poly-4 {
