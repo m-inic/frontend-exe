@@ -207,6 +207,10 @@ aside h1 span {
     height: 25rem;
 }
 
+#poly1 img:hover {
+    cursor: url("pics/blk-crs.png"), pointer;
+}
+
 #links-frame-1 {
     position: absolute;
     width: 5rem;
@@ -854,16 +858,6 @@ main aside {
     width: 8rem;
 }
 
-#line-24 {
-    position: absolute;
-    width: 3px;
-    background: #000000;
-    height: 1.5rem;
-    right: 113px;
-    z-index: 1;
-    top: 180px;
-}
-
 #line-25 {
     position: absolute;
     width: 3rem;
@@ -953,12 +947,12 @@ main aside {
 
 #line-31 {
     position: absolute;
-    width: 302px;
+    width: 600px;
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    bottom: -51px;
-    left: 805px;
+    top: 723px;
+    left: 656px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
     border-top-color: transparent;
@@ -983,12 +977,12 @@ main aside {
 
 #line-33 {
     position: absolute;
-    width: 12rem;
+    width: 212px;
     transform: rotate(90deg);
     height: 3px;
     background: #00000000;
-    bottom: -385px;
-    left: 47px;
+    bottom: -395px;
+    left: 37px;
     border-bottom: 3px solid #ffffff;
     z-index: 1;
     border-top-color: transparent;
@@ -1003,7 +997,7 @@ main aside {
     height: 3px;
     background: #ffffff00;
     left: 740px;
-    bottom: -1841px;
+    bottom: 299px;
     border-bottom: 3px solid #000000;
     z-index: 1;
     border-top-color: transparent;
@@ -1011,10 +1005,27 @@ main aside {
     border-left-color: transparent;
 }
 
-/* PRAVIM SLIKU ZA CURSOR KAD PREDJE ZUTE POVRSINE!!!!!!! */
+/* 
+
+
+
+
+
+NAPRAVIO SAM SLIKU ZA CURSOR, SAD SAMO TREBA DA PODESIM DIV
+KOJI CE DA PRIHVATI SLIKU I DA PODESIM VELICINU CURSORA
+
+
+
+
+
+*/
 
 footer {
+    position: relative;
     height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lines-poly {
@@ -1034,4 +1045,25 @@ footer {
     position: absolute;
     width: 406px;
     right: -39px;
+    top: 99px;
+}
+
+footer article {
+    position: relative;
+    width: 21rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer article div {
+    width: 25rem;
+    height: 4rem;
+}
+
+footer article img {
+    width: 4rem;
 }
