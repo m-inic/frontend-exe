@@ -55,7 +55,6 @@ aside h2 {
     width: 3px;
     background: #000000;
     height: 6rem;
-    left: 22%;
     top: 32px;
     z-index: 1;
 }
@@ -240,7 +239,7 @@ aside h1 span {
     left: -5rem;
     height: 109px;
     border-radius: 4rem;
-    border: 3px solid #f7f7f7;
+    border: 3.5px solid #f7f7f7;
 }
 
 #links-frame-4 {
@@ -422,14 +421,14 @@ nav p {
 #adapt-text-cont img {
     width: 26rem;
     position: absolute;
-    bottom: 136px;
+    bottom: -74px;
     right: 3px;
 }
 
 #poly-2-cont {
     position: absolute;
     left: -51px;
-    bottom: -75px;
+    bottom: -285px;
     z-index: -2;
 }
 
@@ -947,12 +946,12 @@ main aside {
 
 #line-31 {
     position: absolute;
-    width: 600px;
+    width: 630px;
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    top: 723px;
-    left: 656px;
+    top: 739px;
+    left: 641px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
     border-top-color: transparent;
@@ -977,12 +976,12 @@ main aside {
 
 #line-33 {
     position: absolute;
-    width: 212px;
+    width: 240px;
     transform: rotate(90deg);
     height: 3px;
     background: #00000000;
-    bottom: -395px;
-    left: 37px;
+    bottom: -409px;
+    left: 23px;
     border-bottom: 3px solid #ffffff;
     z-index: 1;
     border-top-color: transparent;
@@ -1005,6 +1004,119 @@ main aside {
     border-left-color: transparent;
 }
 
+#line-35 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom: 54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-45deg);
+    right: 23px;
+}
+
+#line-36 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom:54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
+    right: 23px;
+}
+
+#line-37 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom: 54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(135deg);
+    right: 23px;
+}
+
+#line-38 {
+    position: absolute;
+    width: 863px;
+    height: 3px;
+    background: #ffffff00;
+    bottom: 105px;
+    left: 72px;
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+
+#line-39 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom: 54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    left: 46px;
+
+}
+
+
+#line-40 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom: 54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(315deg);
+    left: 46px;
+}
+
+
+#line-41 {
+    position: absolute;
+    width: 3rem;
+    border: 3px solid #ffffff;
+    background: transparent;
+    height: 3rem;
+    bottom: 54px;
+    z-index: 1;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(225deg);
+    left: 46px;
+}
 /* 
 
 
