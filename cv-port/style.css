@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     background: url(pics/grid-bg.png), linear-gradient(135deg, #bbbbbb, #989898);
@@ -5,6 +9,54 @@ body {
     margin: 0;
     max-width: 1600px;
     margin: auto;
+}
+
+#to-top-btn {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 56px;
+    right: 24px;
+    width: 3rem;
+    height: 3rem;
+    background: #F5C372;
+    border-radius: 2rem;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px 0px #00000085;
+    z-index: 3;
+    transition:  opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+#to-top-btn div {
+    width: 30px;
+    height: 6px;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1rem;
+    left: 8.8px;
+    bottom: 3px;
+    transform: rotate(45deg);
+}
+
+#to-top-btn div::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 6px;
+    left: -12px;
+    top: 12px;
+    background-color: #000000;
+    border-radius: 1rem;
+    transform: rotate(90deg);
+}
+
+#to-top-btn:hover {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    bottom: 65px;
 }
 
 header aside {
@@ -421,14 +473,14 @@ nav p {
 #adapt-text-cont img {
     width: 26rem;
     position: absolute;
-    bottom: -74px;
+    bottom: 138px;
     right: 3px;
 }
 
 #poly-2-cont {
     position: absolute;
     left: -51px;
-    bottom: -285px;
+    bottom: -76px;
     z-index: -2;
 }
 
@@ -828,14 +880,25 @@ main aside {
 }
 
 #about-me-picture {
-    width: 105px;
-    height: 146px;
+    width: 98px;
+    height: 145px;
     position: absolute;
+    display: flex;
     top: 191px;
-    left: -165px;
-    background: black;
-    z-index: -1;
+    left: -162px;
+    background: #a8a8a8;
+    z-index: 2;
     border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me-picture img {
+    width: 6rem;
+}
+
+#about-me-picture img:hover {
+    cursor: pointer;
 }
 
 #prev-jobs {
@@ -946,12 +1009,12 @@ main aside {
 
 #line-31 {
     position: absolute;
-    width: 630px;
+    width: 680px;
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    top: 739px;
-    left: 641px;
+    top: 761px;
+    left: 616px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
     border-top-color: transparent;
@@ -976,12 +1039,12 @@ main aside {
 
 #line-33 {
     position: absolute;
-    width: 240px;
+    width: 290px;
     transform: rotate(90deg);
     height: 3px;
     background: #00000000;
-    bottom: -409px;
-    left: 23px;
+    bottom: -434px;
+    left: -2px;
     border-bottom: 3px solid #ffffff;
     z-index: 1;
     border-top-color: transparent;
@@ -991,12 +1054,12 @@ main aside {
 
 #line-34 {
     position: absolute;
-    width: 344px;
+    width: 346px;
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    left: 740px;
-    bottom: 299px;
+    left: 739px;
+    bottom: 347px;
     border-bottom: 3px solid #000000;
     z-index: 1;
     border-top-color: transparent;
@@ -1017,7 +1080,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(-45deg);
-    right: 23px;
+    right: 22px;
 }
 
 #line-36 {
@@ -1066,6 +1129,19 @@ main aside {
     border-left-color: transparent;
 }
 
+/* #line-38::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    bottom: -3px;
+    right: 0;
+    border-bottom: 3px solid #000000;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+} */
 
 #line-39 {
     position: absolute;
@@ -1115,7 +1191,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(225deg);
-    left: 46px;
+    left: 45px;
 }
 /* 
 
@@ -1134,10 +1210,10 @@ KOJI CE DA PRIHVATI SLIKU I DA PODESIM VELICINU CURSORA
 
 footer {
     position: relative;
-    height: 38rem;
+    height: 41rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 #lines-poly {
@@ -1162,20 +1238,35 @@ footer {
 
 footer article {
     position: relative;
-    width: 21rem;
-    height: 100%;
+    width: 25rem;
+    height: 24rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+footer article p span {
+    color: black;
+}
+
+#assume {
+    width: 32rem;
 }
 
 footer article div {
-    width: 25rem;
-    height: 4rem;
+    width: 20rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 40px 20px -2px white;
+    margin-top: 2rem;
 }
 
 footer article img {
-    width: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
