@@ -96,8 +96,8 @@ aside h2 {
     width: 3px;
     background: #f7f7f7;
     height: 2rem;
-    bottom: 235px;
-    left: 22%;
+    bottom: 313px;
+    left: 249px;
     z-index: 1;
 }
 
@@ -117,8 +117,8 @@ aside h2 {
     border: 3px solid black;
     background: transparent;
     height: 3rem;
-    bottom: 108px;
-    left: 22%;
+    bottom: 186px;
+    left: 249px;
     z-index: 1;
     border-radius: 50%;
     border-top-color: transparent;
@@ -132,8 +132,8 @@ aside h2 {
     width: 73px;
     background: transparent;
     height: 3rem;
-    bottom: 108px;
-    left: 229px;
+    bottom: 186px;
+    left: 280px;
     border-bottom: 3px solid black;
     z-index: 1;
     border-top-color: transparent;
@@ -182,16 +182,19 @@ aside h2 {
 aside h1 {
     font-size: 4rem;
     font-weight: 400;
-    margin: 0 65px 0 0;
+    margin: 0px 65px 92px 0;
     width: 100%;
+    height: 0;
     text-align: right;
     display: block;
+    z-index: 3;
 }
 
 aside h1 span {
     color: white;
     font-weight: 700;
     margin-left: 4rem;
+    cursor: url("pics/black-cursor.png"), pointer;
 }
 
 
@@ -246,20 +249,28 @@ aside h1 span {
     transition: 0.2s;
 }
 
+#poly1-s {
+    position: absolute;
+    width: 342px;
+    height: 336px;
+    top: 18px;
+    right: 4px;  
+}
+
+#poly1-p:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
+}
+
 #poly1 {
     position: absolute;
     top: -28px;
     right: -47px;
-    z-index: -1;
+    z-index: 2;
 }
 
 #poly1 img {
     width: 23rem;
     height: 25rem;
-}
-
-#poly1 img:hover {
-    cursor: url("pics/blk-crs.png"), pointer;
 }
 
 #links-frame-1 {
@@ -477,11 +488,24 @@ nav p {
     right: 3px;
 }
 
+#poly-2-s {
+    position: absolute;
+    width: 303px;
+    height: 330px;
+    top: -5px;
+    right: 30px;
+    z-index: 2;
+}
+
+#poly-2-p:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
+}
+
 #poly-2-cont {
     position: absolute;
     left: -51px;
     bottom: -76px;
-    z-index: -2;
+    z-index: 2;
 }
 
 #poly-2-cont img {
@@ -647,6 +671,7 @@ main aside {
 }
 
 #my-projects-list li {
+    z-index: 3;
     transition: 0.2s;
 }
 
@@ -657,13 +682,26 @@ main aside {
 
 #todo a {
     color: #000000;
+    cursor: url("pics/black-cursor.png"), pointer;
+}
+
+#poly-3-s {
+    position: absolute;
+    width: 198px;
+    height: 195px;
+    top: -3px;
+    right: 44px;
+}
+
+#poly-3-p:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
 }
 
 #poly-3-cont {
     position: absolute;
     right: -90px;
     top: 290px;
-    z-index: -1;
+    z-index: 2;
 }
 
 #poly-3-cont img {
@@ -920,6 +958,19 @@ main aside {
     width: 8rem;
 }
 
+#poly-4-s {
+    position: absolute;
+    z-index: 2;
+    width: 363px;
+    top: 305px;
+    right: 40px;
+
+}
+
+#poly-4-p:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
+}
+
 #line-25 {
     position: absolute;
     width: 3rem;
@@ -1099,6 +1150,19 @@ main aside {
     right: 23px;
 }
 
+#poly-5-s {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 119px;
+    right: -9px;
+    z-index: 2;
+}
+
+#poly-5-p:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
+}
+
 #line-37 {
     position: absolute;
     width: 3rem;
@@ -1257,13 +1321,14 @@ footer article p span {
 }
 
 footer article div {
-    width: 20rem;
+    width: 14rem;
     height: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 40px 20px -2px white;
+    box-shadow: 0px 0px 50px 30px #ffffff82;
     margin-top: 2rem;
+    background: #ffffff6e;
 }
 
 footer article img {

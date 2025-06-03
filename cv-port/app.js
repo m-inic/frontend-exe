@@ -29,7 +29,7 @@ getToWork.addEventListener("click", (event) => {
 getToMe.addEventListener("click", (event) => {
     event.preventDefault()
     window.scrollTo({
-        bottom: 0,
+        top: 1600,
         behavior: "smooth"
     });
 });
