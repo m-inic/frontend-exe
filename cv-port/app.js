@@ -8,11 +8,19 @@ const hiEmoji = document.getElementById("hi-emoji");
 const toTopBtn = document.getElementById("to-top-btn");
 
 function nextImage() {
-    scrollContainer.scrollLeft += 610;
+    if(window.innerWidth < 1280) {
+        scrollContainer.scrollLeft += 610;
+    } else if(window.innerWidth >= 1280) {
+        scrollContainer.scrollLeft += 786;
+    }
 }
 
 function prevImage() {
-    scrollContainer.scrollLeft -= 610;
+    if(window.innerWidth < 1280) {
+        scrollContainer.scrollLeft -= 610;
+    } else if(window.innerWidth >= 1280) {
+        scrollContainer.scrollLeft -= 786;
+    }
 }
 
 arrowRight.addEventListener("click", nextImage)
