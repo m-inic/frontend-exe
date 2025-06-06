@@ -900,8 +900,8 @@ main aside {
     position: absolute;
     width: 3px;
     background: #f7f7f7;
-    height: 183px;
-    bottom: 174px;
+    height: 251px;
+    bottom: 106px;
     left: -114px;
     z-index: 1;
 }
@@ -961,9 +961,9 @@ main aside {
 #poly-4-s {
     position: absolute;
     z-index: 2;
-    width: 363px;
-    top: 305px;
-    right: 40px;
+    width: 375px;
+    top: 279px;
+    right: 36px;
 
 }
 
@@ -974,7 +974,7 @@ main aside {
 #line-25 {
     position: absolute;
     width: 3rem;
-    border: 3px solid black;
+    border: 3px solid #f7f7f7;
     background: transparent;
     height: 3rem;
     bottom: 76px;
@@ -992,7 +992,7 @@ main aside {
     width: 11rem;
     bottom: 76px;
     left: 167px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid #f7f7f7;
     z-index: 1;
 }
 
@@ -1075,12 +1075,12 @@ main aside {
 
 #line-32 {
     position: absolute;
-    width: 26.5rem;
+    width: 368px;
     transform: rotate(90deg);
     height: 3px;
     background: #00000000;
-    bottom: -78px;
-    left: -69px;
+    bottom: -130px;
+    left: -41px;
     border-bottom: 3px solid #000000;
     z-index: 1;
     border-top-color: transparent;
@@ -1090,12 +1090,12 @@ main aside {
 
 #line-33 {
     position: absolute;
-    width: 290px;
+    width: 270px;
     transform: rotate(90deg);
     height: 3px;
     background: #00000000;
-    bottom: -434px;
-    left: -2px;
+    bottom: -446px;
+    left: 8px;
     border-bottom: 3px solid #ffffff;
     z-index: 1;
     border-top-color: transparent;
@@ -1152,10 +1152,10 @@ main aside {
 
 #poly-5-s {
     position: absolute;
-    width: 360px;
-    height: 360px;
-    top: 119px;
-    right: -9px;
+    width: 351px;
+    height: 351px;
+    top: 101px;
+    right: -4px;
     z-index: 2;
 }
 
@@ -1275,8 +1275,8 @@ footer {
 #poly-4 {
     width: 28rem;
     position: relative;
-    top: 355px;
-    left: -8px;
+    top: 369px;
+    left: -74px;
 }
 
 #poly-5 {
@@ -1533,6 +1533,9 @@ footer article img {
     #my-projects-list {
         height: 100%;
         justify-content: space-evenly;
+        font-size: 18px;
+        text-align: center;
+        width: 92px;
     }
 
     #poly-3-cont {
@@ -1545,5 +1548,89 @@ footer article img {
 
     #line-9 {
         width: 919px;
+    }
+
+    #me-pic-lines {
+        left: -18px;
+    }
+
+    #prev-jobs {
+        right: -190px;
+    }
+
+    #lines-poly {
+        left: -272px;
+    }
+
+    #line-27 {
+        width: 950px;
+    }
+
+    #line-28 {
+        left: 1262px;
+    }
+
+    #line-29 {
+        left: 1262px;
+    }
+
+    #line-30 {
+        left: 1262px;
+    }
+
+    #line-31 {
+        top: 683px;
+        left: 925px;
+    }
+
+    #line-34 {
+        left: 1045px;
+        bottom: 350px;
+        width: 350px;
+    }
+
+    #line-35 {
+        right: -5px;
+    }
+
+    #line-36 {
+        right: -5px;
+    }
+
+    #line-37 {
+        right: -5px;
+    }
+
+    #line-38 {
+        width: 1172px;
+    }
+
+    #line-39 {
+        left: 45px;
+    }
+    
+    #line-40 {
+        left: 45px;
+    }
+
+    #line-41 {
+        left: 44px;
+    }
+
+    #poly-5 {
+        right: -135px;
+    }
+
+    footer article {
+        left: 35px;
+    }
+
+    #poly-5-s {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    top: 101px;
+    right: -101px;
+    z-index: 2;
     }
 }
