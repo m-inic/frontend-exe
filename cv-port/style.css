@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     background: url(pics/grid-bg.png), linear-gradient(135deg, #bbbbbb, #989898);
     font-family: "Poppins", sans-serif;
-    max-width: 1400px;
+    max-width: 984px;
     margin: auto;
 }
 
@@ -484,7 +484,7 @@ nav p {
 #adapt-text-cont img {
     width: 26rem;
     position: absolute;
-    bottom: 138px;
+    bottom: 85px;
     right: 3px;
 }
 
@@ -510,6 +510,9 @@ nav p {
 
 #poly-2-cont img {
     width: 24rem;
+    position: relative;
+    top: -23px;
+    right: 6px;;
 }
 
 main {
@@ -610,7 +613,7 @@ main {
 
 #line-9 {
     position: absolute;
-    width: 40rem;
+    width: 639px;
     background: #ffffff00;
     height: 3px;
     bottom: -2px;
@@ -637,7 +640,7 @@ main {
     width: 3rem;
     height: 2rem;
     bottom: -34px;
-    left: 96px;
+    left: 95px;
     border-left: 3px solid #f7f7f7;
     border-top: 3px solid #f7f7f7;
 }
@@ -1064,7 +1067,7 @@ main aside {
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    top: 761px;
+    top: 683px;
     left: 616px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
@@ -1105,12 +1108,12 @@ main aside {
 
 #line-34 {
     position: absolute;
-    width: 346px;
+    width: 302px;
     transform: rotate(90deg);
     height: 3px;
     background: #ffffff00;
-    left: 739px;
-    bottom: 347px;
+    left: 760px;
+    bottom: 471px;
     border-bottom: 3px solid #000000;
     z-index: 1;
     border-top-color: transparent;
@@ -1147,7 +1150,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(225deg);
-    right: 23px;
+    right: 22px;
 }
 
 #poly-5-s {
@@ -1176,7 +1179,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(135deg);
-    right: 23px;
+    right: 22px;
 }
 
 #line-38 {
@@ -1220,8 +1223,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(45deg);
-    left: 46px;
-
+    left: 45px;
 }
 
 
@@ -1238,7 +1240,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(315deg);
-    left: 46px;
+    left: 45px;
 }
 
 
@@ -1255,7 +1257,7 @@ main aside {
     border-right-color: transparent;
     border-bottom-color: transparent;
     transform: rotate(225deg);
-    left: 45px;
+    left: 44px;
 }
 
 footer {
@@ -1282,8 +1284,8 @@ footer {
 #poly-5 {
     position: absolute;
     width: 406px;
-    right: -39px;
-    top: 99px;
+    right: -77px;
+    top: 0;
 }
 
 footer article {
@@ -1554,8 +1556,13 @@ footer article img {
         left: -18px;
     }
 
+    #about-me-text-cont {
+        position: relative;
+        left: -20px;
+    }
+
     #prev-jobs {
-        right: -190px;
+        right: -140px;
     }
 
     #lines-poly {
@@ -1563,46 +1570,47 @@ footer article img {
     }
 
     #line-27 {
-        width: 950px;
+        width: 920px;
     }
 
     #line-28 {
-        left: 1262px;
+        left: 1232px;
     }
 
     #line-29 {
-        left: 1262px;
+        left: 1232px;
     }
 
     #line-30 {
-        left: 1262px;
+        left: 1232px;
     }
 
     #line-31 {
         top: 683px;
-        left: 925px;
+        left: 895px;
     }
 
     #line-34 {
-        left: 1045px;
-        bottom: 350px;
-        width: 350px;
+        left: 1033px;
+        bottom: 471px;
+        width: 314px;
     }
 
     #line-35 {
-        right: -5px;
+        right: 25px;
     }
 
     #line-36 {
-        right: -5px;
+        right: 25px;
     }
 
     #line-37 {
-        right: -5px;
+        right: 25px;
     }
 
     #line-38 {
-        width: 1172px;
+        width: 1142px;
+        left: 72px;
     }
 
     #line-39 {
@@ -1622,14 +1630,14 @@ footer article img {
     }
 
     footer article {
-        left: 35px;
+        left: 10px;
     }
 
     #poly-5-s {
     position: absolute;
     width: 352px;
     height: 352px;
-    top: 101px;
+    top: 2px;
     right: -101px;
     z-index: 2;
     }
