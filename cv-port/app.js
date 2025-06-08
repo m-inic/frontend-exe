@@ -6,6 +6,7 @@ const getToMe = document.getElementById("nav-menu-link-2");
 const getToContact = document.getElementById("nav-menu-link-3");
 const hiEmoji = document.getElementById("hi-emoji");
 const toTopBtn = document.getElementById("to-top-btn");
+const blackText = document.querySelectorAll("#assume span");
 
 function nextImage() {
     if(window.innerWidth < 1280) {
@@ -73,3 +74,11 @@ toTopBtn.addEventListener("click", () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 })
+
+if(window.innerWidth >= 1280) {
+    blackText[0].style.color = "white";
+    blackText[1].style.color = "white";
+} else if(window.innerWidth < 1280) {
+    blackText[0].style.color = "black";
+    blackText[1].style.color = "black";
+}

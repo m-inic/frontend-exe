@@ -250,10 +250,11 @@ aside h1 span {
 
 #poly1-s {
     position: absolute;
-    width: 342px;
-    height: 336px;
-    top: 18px;
-    right: 4px;
+    width: 292px;
+    height: 281px;
+    top: 38px;
+    right: 47px;
+    transform: scaleY(1.25);
 }
 
 #poly1-p:hover {
@@ -490,10 +491,10 @@ nav p {
 
 #poly-2-s {
     position: absolute;
-    width: 306px;
+    width: 307px;
     height: 333px;
-    top: -18px;
-    right: 30px;
+    top: -41px;
+    right: 35px;
     z-index: 2;
 }
 
@@ -965,9 +966,8 @@ main aside {
     position: absolute;
     z-index: 2;
     width: 375px;
-    top: 279px;
-    right: 36px;
-
+    top: 293px;
+    right: 102px;
 }
 
 #poly-4-p:hover {
@@ -1157,8 +1157,8 @@ main aside {
     position: absolute;
     width: 351px;
     height: 351px;
-    top: 101px;
-    right: -4px;
+    top: 2px;
+    right: -43px;
     z-index: 2;
 }
 
@@ -1354,10 +1354,11 @@ footer article img {
     }
 
     #poly1-s {
-        width: 380px;
-        height: 338px;
-        top: 20px;
-        right: 19px;
+        width: 266px;
+        height: 258px;
+        top: 62px;
+        right: 85px;
+        transform: scalex(1.24) scaleY(1.32);
     }
 
     header nav {
