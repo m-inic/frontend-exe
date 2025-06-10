@@ -720,6 +720,18 @@ footer article img {
     height: 3rem;
 }
 
+@media (max-width: 650px) {
+    body {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        
+    }
+}
+
 @media (min-width: 1280px) {
     body {
         max-width: 1266px;
