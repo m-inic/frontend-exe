@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,6 +9,14 @@ body {
     font-family: "Poppins", sans-serif;
     max-width: 984px;
     margin: auto;
+}
+
+#circle-menu {
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: transparent;
 }
 
 #to-top-btn {
@@ -166,6 +175,12 @@ aside h1 span {
     height: 25rem;
 }
 
+#link-frames {
+    position: relative;
+    width: 10rem;
+    height: 9rem;
+}
+
 #links-frame-1 {
     position: absolute;
     width: 5rem;
@@ -178,7 +193,7 @@ aside h1 span {
     width: 1rem;
     height: 3px;
     background: #f7f7f7;
-    top: 7rem;
+    bottom: -2px;
 }
 
 #links-frame-3-cont {
@@ -187,6 +202,7 @@ aside h1 span {
     width: 7rem;
     height: 8rem;
     margin-left: 90px;
+    top: 0px;
 }
 
 #links-frame-3 {
@@ -203,7 +219,7 @@ aside h1 span {
     width: 5rem;
     height: 3px;
     background: #f7f7f7;
-    top: 7rem;
+    bottom: -2px;
     left: 1.5rem;
 }
 
@@ -406,7 +422,8 @@ nav p {
     width: 24rem;
     position: relative;
     top: -23px;
-    right: 6px;;
+    right: 6px;
+    ;
 }
 
 main {
@@ -720,15 +737,85 @@ footer article img {
     height: 3rem;
 }
 
-@media (max-width: 650px) {
-    body {
-        max-width: 50%;
-    }
+@media (min-width: 320px) {
+    body {}
 }
 
-@media (min-width: 1000px) {
-    body {
-        
+@media (min-width: 650px) {
+    header aside {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+    }
+
+    aside h2 {
+        width: 20rem;
+        margin-left: unset;
+    }
+
+    #poly1 {
+        top: 46px;
+        right: 74px;
+        width: 9rem;
+        height: 9rem;
+        background: linear-gradient(0deg, #F5C372, #F4D6A7);
+        border-radius: 50%;
+        cursor: url(pics/black-cursor.png), pointer;
+    }
+
+    #poly1:hover {}
+
+    #poly1 img {
+        display: none;
+    }
+
+    #poly1-s {
+        display: none;
+    }
+
+    aside h1 {
+        margin: 0 0 133px 0;
+        width: 85%;
+    }
+
+    aside h1 span {
+        margin-left: 1rem;
+    }
+
+    #lines-1 {
+        width: 908px;
+        height: 908px;
+        left: -458px;
+        top: -770px;
+        max-width: 899px;
+    }
+
+    #poly-2-cont {
+        left: -433px;
+        bottom: -65px;
+    }
+
+    #line-2 {
+        left: 174px;
+    }
+
+    #line-3 {
+        left: 174px;
+    }
+
+    #line-4 {
+        width: 144px;
+        left: 205px;
+    }
+
+    #line-5 {
+        bottom: 93px;
+        left: 374px;
+    }
+
+    #line-6 {
+        bottom: 93px;
+        right: 0px;
     }
 }
 
@@ -955,11 +1042,11 @@ footer article img {
     }
 
     #poly-5-s {
-    position: absolute;
-    width: 352px;
-    height: 352px;
-    top: 2px;
-    right: -101px;
-    z-index: 2;
+        position: absolute;
+        width: 352px;
+        height: 352px;
+        top: 2px;
+        right: -101px;
+        z-index: 2;
     }
 }
