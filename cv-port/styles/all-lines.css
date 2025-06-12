@@ -589,6 +589,26 @@
     left: 45px;
 }
 
+@media (max-width: 650px) {
+    #lines-1 {
+        top: -795px;
+        width: 134vw;
+    }
+
+    #line-1 {
+        height: 55rem;
+        top: -225px;
+    }
+
+    #line-5 {
+        width: 58vw;
+    }
+
+    #line-6 {
+        right: 10%;
+    }
+}
+
 @media (min-width: 1280px) {
     #lines-1 {
         left: -252px;
@@ -629,7 +649,7 @@
     #me-pic-lines {
         left: calc(-17px - 0.5px);
     }
-    
+
     #line-27 {
         width: 920px;
     }
@@ -677,7 +697,7 @@
     #line-39 {
         left: 45px;
     }
-    
+
     #line-40 {
         left: 45px;
     }
