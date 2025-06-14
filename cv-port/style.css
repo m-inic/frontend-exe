@@ -808,7 +808,49 @@ footer article img {
     }
 
     #link-frames {
-        /* display: none; */
+        position: absolute;
+    }
+
+    #links-frame-1 {
+        display: none;
+    }
+
+    #link-frames ul {
+        opacity: 0;
+        position: absolute;
+        flex-direction: row;
+        width: 17rem;
+        list-style: none;
+        left: -130px;
+        height: 20px;
+    }
+
+    #nav-menu-link-1 {
+
+    }
+
+    #nav-menu-link-2 {
+
+    }
+
+    #nav-menu-link-3 {
+        
+    }
+
+    #links-frame-2 {
+        display: none;
+    }
+
+    #links-frame-3-cont {
+        display: none;
+    }
+
+    #links-frame-4 {
+        display: none;
+    }
+
+    #link-frames p {
+        position: absolute;
     }
 
     #landing {
