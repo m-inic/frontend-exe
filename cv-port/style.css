@@ -10,6 +10,17 @@ body {
     margin: auto;
 }
 
+#overlay {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#00000085, #202020);
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    transition: background 0.2s;
+}
+
 /* TREBA DA URADIM 650px I DA POPRAVIM GORNJI DEO STA NE VALJA ZA OSTALE SIRINE */
 #circle-menu {
     display: none;
@@ -101,6 +112,7 @@ aside h1 span {
     color: white;
     text-decoration: none;
     transition: 0.2s;
+    position: relative;
 }
 
 #nav-menu-link-1::after {
@@ -177,6 +189,7 @@ aside h1 span {
     position: relative;
     width: 10rem;
     height: 9rem;
+    top: 29px;
 }
 
 #links-frame-1 {
@@ -754,6 +767,7 @@ footer article img {
     #circle-menu:hover {
         box-shadow: 0px 0px 6px #ffffff;
         transition: all 0.2s;
+        cursor: pointer;
     }
 
     header aside {
@@ -810,7 +824,7 @@ footer article img {
         align-items: center;
         justify-content: space-between;
         flex-direction: column-reverse;
-        top: -25px;
+        top: -40px;
     }
 
     nav p {
@@ -834,11 +848,14 @@ footer article img {
     }
 
     #link-frames ul {
+        display: none;
         position: absolute;
         flex-direction: row;
         width: 17rem;
         list-style: none;
         height: 20px;
+        bottom: -150px;
+        left: 5px;
     }
 
     .nav-menu-link {
@@ -933,6 +950,10 @@ footer article img {
     header nav {
         justify-content: space-between;
         height: 31rem;
+    }
+
+    #link-frames {
+        top: 0px;
     }
 
     #links-frame-1 {
