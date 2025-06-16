@@ -18,7 +18,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 4;
-    transition: background 0.2s;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 /* TREBA DA URADIM 650px I DA POPRAVIM GORNJI DEO STA NE VALJA ZA OSTALE SIRINE */
@@ -851,15 +852,17 @@ footer article img {
         display: none;
         position: absolute;
         flex-direction: row;
-        width: 17rem;
+        width: 30rem;
         list-style: none;
         height: 20px;
         bottom: -150px;
-        left: 5px;
+        left: -133px;
     }
 
     .nav-menu-link {
         display: block;
+        z-index: 5;
+        position: fixed;
     }
 
     #nav-menu-link-1 {}

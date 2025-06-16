@@ -90,22 +90,37 @@ if (window.innerWidth >= 1280) {
 }
 
 function showMenu() {
+    listLink1.classList.remove("animate__fadeOutTopRight");
+    listLink2.classList.remove("animate__fadeOutUp");
+    listLink3.classList.remove("animate__fadeOutTopLeft");
+    
     linksList.style.display = "flex";
     listLink1.classList.add("animate__fadeInTopRight");
     listLink2.classList.add("animate__fadeInDown");
     listLink3.classList.add("animate__fadeInTopLeft");
     overlay.style.display = "block";
+    listLink1.style.pointerEvents = "auto";
+    listLink2.style.pointerEvents = "auto";
+    listLink3.style.pointerEvents = "auto";
+    overlay.style.opacity = "1";
 }
 
 function hideMenu() {
-    linksList.style.display = "none";
-    listLink1.classList.replace("animate__fadeInTopRight", "animate__fadeOutTopRight");
-    listLink2.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
-    listLink3.classList.replace("animate__fadeInTopLeft", "animate__fadeOutTopLeft");
-    overlay.style.display = "none";
+    if (linksList.style.display === "flex") {
+        listLink1.classList.replace("animate__fadeInTopRight", "animate__fadeOutTopRight");
+        listLink2.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
+        listLink3.classList.replace("animate__fadeInTopLeft", "animate__fadeOutTopLeft");
+        overlay.style.display = "none";
+        listLink1.style.pointerEvents = "none";
+        listLink2.style.pointerEvents = "none";
+        listLink3.style.pointerEvents = "none";
+    }
 }
 
 // TREBA DA DORADIM ANIMACIJU
 
 circleMenuBtn.addEventListener("click", showMenu);
-overlay.addEventListener("click", hideMenu)
+overlay.addEventListener("click", hideMenu);
+listLink1.addEventListener("click", hideMenu);
+listLink2.addEventListener("click", hideMenu);
+listLink3.addEventListener("click", hideMenu);
