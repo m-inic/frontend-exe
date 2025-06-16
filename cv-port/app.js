@@ -93,7 +93,8 @@ function showMenu() {
     listLink1.classList.remove("animate__fadeOutTopRight");
     listLink2.classList.remove("animate__fadeOutUp");
     listLink3.classList.remove("animate__fadeOutTopLeft");
-    
+    overlay.classList.remove("animate__fadeOutUp");
+
     linksList.style.display = "flex";
     listLink1.classList.add("animate__fadeInTopRight");
     listLink2.classList.add("animate__fadeInDown");
@@ -103,6 +104,7 @@ function showMenu() {
     listLink2.style.pointerEvents = "auto";
     listLink3.style.pointerEvents = "auto";
     overlay.style.opacity = "1";
+    overlay.classList.add("animate__fadeInDown");
 }
 
 function hideMenu() {
@@ -110,7 +112,9 @@ function hideMenu() {
         listLink1.classList.replace("animate__fadeInTopRight", "animate__fadeOutTopRight");
         listLink2.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
         listLink3.classList.replace("animate__fadeInTopLeft", "animate__fadeOutTopLeft");
-        overlay.style.display = "none";
+        overlay.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
+        // overlay.style.display = "none";
+        overlay.style.opacity = "0";
         listLink1.style.pointerEvents = "none";
         listLink2.style.pointerEvents = "none";
         listLink3.style.pointerEvents = "none";
