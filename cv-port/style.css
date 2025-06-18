@@ -20,6 +20,11 @@ body {
     z-index: 4;
     opacity: 0;
     transition: opacity 0.5s ease;
+    backdrop-filter: blur(8px);
+}
+
+.animate__animated {
+    animation-duration: 0.7s;
 }
 
 /* TREBA DA URADIM 650px I DA POPRAVIM GORNJI DEO STA NE VALJA ZA OSTALE SIRINE */
@@ -754,7 +759,7 @@ footer article img {
     body {}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     #circle-menu {
         display: block;
         width: 50px;
@@ -763,6 +768,8 @@ footer article img {
         border-radius: 50%;
         background: transparent;
         transition: all 0.2s;
+        top: 33px;
+        position: relative;
     }
 
     #circle-menu:hover {
@@ -784,6 +791,38 @@ footer article img {
         width: 20rem;
         margin-left: unset;
         font-size: 22px;
+    }
+
+    #landing-intro-text-container {
+        top: -1rem;
+        margin: auto;
+        left: -10px;
+    }
+
+    #adapt-text-cont {
+        bottom: -75px;
+        position: relative;
+        left: 55px;
+        display: flex;
+    }
+
+    #adapt-text-cont img {
+        bottom: unset;
+        right: unset;
+        width: 440px;
+    }
+
+    #fence {
+        position: relative;
+        margin: -2rem auto 0 auto;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        top: 15px;
+    }
+
+    #fence img {
+        scale: 0.65;
     }
 
     #poly1 {
@@ -900,11 +939,22 @@ footer article img {
     }
 
     #landing {
-        margin: 6rem 0 0 100px;
+        margin: 10rem auto 0 auto;
+        top: -85px;
+        height: 60rem;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #poly-2-cont {
         bottom: -25px;
+        left: -316px;
+    }
+
+    #poly-2-cont img {
+        right: -10px;
     }
 }
 

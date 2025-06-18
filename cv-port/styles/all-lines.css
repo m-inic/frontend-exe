@@ -72,7 +72,7 @@
     width: 383px;
     background: #ffffff00;
     height: 3px;
-    bottom: 108px;
+    bottom: -132px;
     left: 280px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
@@ -85,7 +85,7 @@
     position: absolute;
     width: 128px;
     height: 3px;
-    bottom: 108px;
+    bottom: -132px;
     right: 12%;
     border-bottom: 3px solid #f7f7f7;
 }
@@ -589,23 +589,42 @@
     left: 45px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     #lines-1 {
         top: -795px;
+        left: 0;
         width: 134vw;
     }
 
     #line-1 {
-        height: 55rem;
+        height: 70rem;
         top: -225px;
+        left: -50px;
     }
 
     #line-5 {
         width: 58vw;
+        left: 30px;
+        bottom: -633px;
     }
 
     #line-6 {
-        right: 10%;
+        right: 42%;
+        width: 109px;
+        bottom: -633px;
+    }
+
+    #line-2::after {
+        top: 31px;
+    }
+
+    #line-3 {
+        bottom: 187px;
+    }
+
+    #line-4 {
+        bottom: 187px;
+        width: 67px;
     }
 }
 

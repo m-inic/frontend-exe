@@ -113,15 +113,12 @@ function hideMenu() {
         listLink2.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
         listLink3.classList.replace("animate__fadeInTopLeft", "animate__fadeOutTopLeft");
         overlay.classList.replace("animate__fadeInDown", "animate__fadeOutUp");
-        // overlay.style.display = "none";
         overlay.style.opacity = "0";
         listLink1.style.pointerEvents = "none";
         listLink2.style.pointerEvents = "none";
         listLink3.style.pointerEvents = "none";
     }
 }
-
-// TREBA DA DORADIM ANIMACIJU
 
 circleMenuBtn.addEventListener("click", showMenu);
 overlay.addEventListener("click", hideMenu);
