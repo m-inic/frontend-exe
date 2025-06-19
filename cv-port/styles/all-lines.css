@@ -72,7 +72,7 @@
     width: 383px;
     background: #ffffff00;
     height: 3px;
-    bottom: -132px;
+    bottom: 108px;
     left: 280px;
     border-bottom: 3px solid #f7f7f7;
     z-index: 1;
@@ -85,7 +85,7 @@
     position: absolute;
     width: 128px;
     height: 3px;
-    bottom: -132px;
+    bottom: 108px;
     right: 12%;
     border-bottom: 3px solid #f7f7f7;
 }
@@ -598,7 +598,7 @@
 
     #line-1 {
         height: 70rem;
-        top: -225px;
+        top: -260px;
         left: -50px;
     }
 
@@ -626,6 +626,11 @@
         bottom: 187px;
         width: 67px;
     }
+
+    #line-7 {
+        top: -251px;
+        right: 7px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -650,6 +655,8 @@
         right: -275px;
         bottom: 93px;
     }
+
+/* OVO MORA DA RESIM SEDMICU */
 
     #line-7 {
         top: -73px;

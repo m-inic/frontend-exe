@@ -27,7 +27,6 @@ body {
     animation-duration: 0.7s;
 }
 
-/* TREBA DA URADIM 650px I DA POPRAVIM GORNJI DEO STA NE VALJA ZA OSTALE SIRINE */
 #circle-menu {
     display: none;
 }
@@ -800,10 +799,13 @@ footer article img {
     }
 
     #adapt-text-cont {
-        bottom: -75px;
+        bottom: 0px;
         position: relative;
-        left: 55px;
+        left: -43px;
         display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin: auto;
     }
 
     #adapt-text-cont img {
@@ -841,6 +843,10 @@ footer article img {
 
     #poly1-s {
         display: none;
+    }
+
+    #poly-2-s {
+        right: 19px;
     }
 
     aside h1 {
@@ -894,7 +900,7 @@ footer article img {
         width: 30rem;
         list-style: none;
         height: 20px;
-        bottom: -150px;
+        bottom: -230px;
         left: -133px;
     }
 
@@ -939,8 +945,8 @@ footer article img {
     }
 
     #landing {
-        margin: 10rem auto 0 auto;
-        top: -85px;
+        margin: 12rem auto 0 auto;
+        top: -117px;
         height: 60rem;
         width: 75%;
         display: flex;
@@ -955,6 +961,47 @@ footer article img {
 
     #poly-2-cont img {
         right: -10px;
+    }
+
+    main {
+        flex-direction: column;
+        width: 75%;
+        margin: auto;
+        max-width: 498px;
+    }
+
+    #slide-cont-after {
+        width: 450px;
+        margin: auto;
+        left: unset;
+        top: -80px;
+    }
+
+    #slide-cont {
+        bottom: 70px;
+        left: unset;
+        width: 438px;
+    }
+
+    .slide-img {
+        width: 450px;
+    }
+
+    #arrows {
+        bottom: 23rem;
+        left: unset;
+    }
+
+    main aside {
+        width: 85%;
+        bottom: -4rem;
+    }
+
+    #my-projects-list {
+        height: 52px;
+        width: 100%;
+        flex-direction: row;
+        align-items: start;
     }
 }
 

@@ -19,7 +19,11 @@ function nextImage() {
         scrollContainer.scrollLeft += 610;
     } else if (window.innerWidth >= 1280) {
         scrollContainer.scrollLeft += 786;
-    }
+    } 
+    
+    if(window.innerWidth < 750) {
+        scrollContainer.scrollLeft += 454;
+    } 
 }
 
 function prevImage() {
@@ -28,6 +32,10 @@ function prevImage() {
     } else if (window.innerWidth >= 1280) {
         scrollContainer.scrollLeft -= 786;
     }
+
+    if(window.innerWidth < 750) {
+        scrollContainer.scrollLeft -= 454;
+    } 
 }
 
 arrowRight.addEventListener("click", nextImage)
