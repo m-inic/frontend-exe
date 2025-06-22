@@ -43,26 +43,48 @@ arrowLeft.addEventListener("click", prevImage)
 
 getToWork.addEventListener("click", (event) => {
     event.preventDefault()
-    window.scrollTo({
-        top: 800,
-        behavior: "smooth"
-    });
+    if(window.innerWidth > 750) {
+        window.scrollTo({
+            top: 800,
+            behavior: "smooth"
+        });
+    } else if(window.innerWidth < 750) {
+        window.scrollTo({
+            top: 1250,
+            behavior: "smooth"
+        });
+    }
 });
 
 getToMe.addEventListener("click", (event) => {
     event.preventDefault()
-    window.scrollTo({
-        top: 1600,
-        behavior: "smooth"
-    });
+    if(window.innerWidth > 750) { 
+        window.scrollTo({
+            top: 1600,
+            behavior: "smooth"
+        });
+    } else if(window.innerWidth < 750) {
+        window.scrollTo({
+            top: 2200,
+            behavior: "smooth"
+        });
+    }
 });
 
 getToContact.addEventListener("click", (event) => {
-    event.preventDefault()
-    window.scrollTo({
-        top: 2300,
-        behavior: "smooth"
-    });
+    if(window.innerWidth > 750) {  
+        event.preventDefault()
+        window.scrollTo({
+            top: 2300,
+            behavior: "smooth"
+        });
+    } else if(window.innerWidth < 750) {
+        event.preventDefault()
+        window.scrollTo({
+            top: 3000,
+            behavior: "smooth"
+        });
+    }
 });
 
 function shakeHand() {

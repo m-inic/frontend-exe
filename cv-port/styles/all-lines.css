@@ -609,8 +609,8 @@
     }
 
     #line-6 {
-        right: 42%;
-        width: 109px;
+        right: 28%;
+        width: 257px;
         bottom: -633px;
     }
 
@@ -629,7 +629,57 @@
 
     #line-7 {
         top: -251px;
-        right: 7px;
+        right: -130px;
+    }
+
+    #line-8 {
+        display: none;
+    }
+
+    #line-9 {
+        bottom: 106px;
+        left: 54px;
+        width: 602px;
+    }
+
+    #line-10 {
+        bottom: 81px;
+        left: -8px;
+    }
+
+    #line-11 {
+        bottom: 74px;
+        left: -1px;
+    }
+
+    #line-12 {
+        height: 18rem;
+        top: -119px;
+    }
+
+    #line-23 {
+        height: 420px;
+        bottom: -783px;
+    }
+
+    #line-25 {
+        left: 130px;
+        bottom: 42px;
+    }
+
+    #line-26 {
+        bottom: 42px;
+        left: 157px;
+    }
+
+    #line-27 {
+        bottom: 42px;
+        left: 333px;
+    }
+
+    #line-32 {
+        bottom: -170px;
+        left: -51px;
     }
 }
 
@@ -656,7 +706,7 @@
         bottom: 93px;
     }
 
-/* OVO MORA DA RESIM SEDMICU */
+    /* OVO MORA DA RESIM SEDMICU */
 
     #line-7 {
         top: -73px;

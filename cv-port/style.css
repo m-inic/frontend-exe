@@ -125,7 +125,7 @@ aside h1 span {
     position: absolute;
     width: 0px;
     height: 1.5rem;
-    left: 16px;
+    left: 1px;
     border-bottom: 3px solid #f7f7f7;
     transition: 0.2s;
 }
@@ -135,7 +135,7 @@ aside h1 span {
     position: absolute;
     width: 0px;
     height: 1.5rem;
-    left: 16px;
+    left: 1px;
     border-bottom: 3px solid #f7f7f7;
     transition: 0.2s;
 }
@@ -145,7 +145,7 @@ aside h1 span {
     position: absolute;
     width: 0px;
     height: 1.5rem;
-    left: 16px;
+    left: 1px;
     border-bottom: 3px solid #f7f7f7;
     transition: 0.2s;
 }
@@ -993,7 +993,7 @@ footer article img {
     }
 
     main aside {
-        width: 85%;
+        width: 110%;
         bottom: -4rem;
     }
 
@@ -1002,6 +1002,50 @@ footer article img {
         width: 100%;
         flex-direction: row;
         align-items: start;
+    }
+
+    #my-projects-list li {
+        width: 5rem;
+    }
+
+    #my-projects-list #todo {
+        width: 4rem;
+    }
+
+    #poly-3-cont {
+        right: -177px;
+        top: -55px;
+    }
+
+    #about-me {
+        flex-direction: column;
+        width: 75%;
+        max-width: 498px;
+        height: 53rem;
+    }
+
+    #about-me #me-pic-lines {
+        left: 113px;
+    }
+
+    #about-me-text-cont {
+        width: 94%;
+        position: relative;
+        left: 20%;
+        bottom: 124px;
+        font-size: 15px;
+        max-width: 403px;
+    }
+
+    #about-me h2 {
+        margin: 45px 0 0px 0px;
+    }
+
+    #prev-jobs {
+        top: -8rem;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 9rem;
     }
 }
 
