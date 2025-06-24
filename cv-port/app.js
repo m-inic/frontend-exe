@@ -72,14 +72,13 @@ getToMe.addEventListener("click", (event) => {
 });
 
 getToContact.addEventListener("click", (event) => {
+    event.preventDefault()
     if(window.innerWidth > 750) {  
-        event.preventDefault()
         window.scrollTo({
             top: 2300,
             behavior: "smooth"
         });
     } else if(window.innerWidth < 750) {
-        event.preventDefault()
         window.scrollTo({
             top: 3000,
             behavior: "smooth"
