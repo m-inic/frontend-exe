@@ -110,7 +110,7 @@ toTopBtn.addEventListener("click", () => {
     document.documentElement.scrollTop = 0;
 })
 
-if (window.innerWidth >= 1280) {
+if (window.innerWidth >= 1280 || window.innerWidth <= 750) {
     blackText[0].style.color = "white";
     blackText[1].style.color = "white";
 } else if (window.innerWidth < 1280) {

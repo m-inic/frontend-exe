@@ -754,10 +754,51 @@ footer article img {
     height: 3rem;
 }
 
-@media (min-width: 320px) {
-    body {}
+@media (max-width: 520px) {
+    header aside {
+        width: 320px;
+        height: 16rem;
+        margin: 1rem auto 0 auto;
+    }
+
+    header aside h2 {
+        width: 16rem;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    header aside h1 {
+        margin: 0 auto 7rem auto;
+        font-size: 40px;
+        height: 60px;
+    }
+
+    aside h1 span {
+        right: 120px;
+        top: 9rem;
+    }
+
+    #poly1 {
+        top: 142.5px;
+        right: 104.5px;
+        width: 7rem;
+        height: 4rem;
+        border-radius: 9px;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 320px;
+        margin: auto;
+        height: 10rem;
+    }
+
+    nav p {
+        font-size: 1.2rem;
+        width: 21rem;
+    }
 }
-/*  SLEDECI JE 320px 750px je gotov  */
+
 @media (max-width: 750px) {
     #circle-menu {
         display: block;
@@ -781,9 +822,9 @@ footer article img {
         flex-direction: column;
         text-align: center;
         position: relative;
-        width: 395px;
+        /* width: 395px;
         height: 14rem;
-        margin: auto;
+        margin: auto; */
     }
 
     aside h2 {
@@ -828,12 +869,12 @@ footer article img {
     }
 
     #poly1 {
-        top: 62px;
+        /* top: 62px;
         right: -13px;
         width: 7rem;
-        height: 7rem;
+        height: 7rem; */
         background: linear-gradient(0deg, #F5C372, #F4D6A7);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         cursor: url(pics/black-cursor.png), pointer;
     }
 
@@ -855,29 +896,28 @@ footer article img {
         height: 80px;
         font-size: 42px;
         text-align: left;
-        /* z-index: 2; */
     }
 
     aside h1 span {
-        right: 0;
+        /* right: 0; */
         position: absolute;
     }
 
     header nav {
-        width: 100%;
-        margin: 0;
-        height: 9rem;
+        /* width: 100%; */
+        /* margin: 0; */
+        /* height: 9rem; */
         align-items: center;
         justify-content: space-between;
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
         top: -40px;
     }
 
     nav p {
         margin-top: 1rem;
-        font-size: 1rem;
+        /* font-size: 1rem; */
         text-align: center;
-        width: 29rem;
+        /* width: 29rem; */
         position: relative;
         top: 0;
         height: 25px;
