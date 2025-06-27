@@ -399,7 +399,7 @@ nav p {
     font-size: 1.5rem;
 }
 
-#adapt-text-cont span {
+#adapt {
     background: linear-gradient(135deg, #ffffff, #f5c372);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -818,19 +818,19 @@ footer article img {
     }
 
     #landing-snake-1::before {
-        transform: rotate(90deg);
+        transform: rotate(25deg);
         width: 3px;
-        height: 29px;
-        left: 45%;
-        top: 52%;
+        height: 49px;
+        left: 39px;
+        top: 244px;
     }
 
     #landing-snake-1::after {
-        transform: rotate(90deg);
+        transform: rotate(155deg);
         width: 3px;
-        height: 29px;
-        left: 45%;
-        top: 38%;
+        height: 49px;
+        left: 39px;
+        top: -4px;
     }
 
     #landing-snake-1 {
@@ -841,7 +841,78 @@ footer article img {
         transform: rotate(90deg);
         width: 29px;
         height: 289px;
-        top: -79px;
+        top: -81px;
+    }
+
+    #landing-snake-2 {
+        left: 135px;
+        border-radius: unset;
+        border-right-color: transparent;
+        border-bottom-color: white;
+        transform: rotate(90deg);
+        width: 29px;
+        height: 289px;
+        top: -9px;
+    }
+
+    #landing-snake-2::after {
+        transform: rotate(-25deg);
+        width: 3px;
+        height: 49px;
+        left: -13px;
+        top: 244px;
+    }
+
+    #landing-snake-2::before {
+        transform: rotate(205deg);
+        width: 3px;
+        height: 49px;
+        left: -13px;
+        top: -4px;
+    }
+
+    #landing-intro-text-container p {
+        text-align: center;
+    }
+
+    #fence {
+        left: -60px;
+    }
+
+    #fence img {
+        scale: 1;
+        width: 695px;
+    }
+
+    #adapt-text-cont {
+        left: 57px;
+        bottom: 98px;
+    }
+
+    #adapt-text-cont p {}
+
+    #adapt-1 {
+        position: relative;
+        top: 55px;
+        left: -13px;
+    }
+
+    #adapt-2 {
+        position: relative;
+        top: 94px;
+        left: -13px;
+    }
+
+    #adapt-3 {
+        position: relative;
+        top: 111px;
+        left: 26px;
+    }
+
+    #adapt {
+        position: relative;
+        top: 96px;
+        left: 70px;
     }
 }
 
@@ -886,9 +957,9 @@ footer article img {
     }
 
     #adapt-text-cont {
-        bottom: 0px;
+        /* bottom: 0px; */
         position: relative;
-        left: -43px;
+        /* left: -43px; */
         display: flex;
         flex-direction: column;
         width: 350px;
@@ -911,7 +982,7 @@ footer article img {
     }
 
     #fence img {
-        scale: 0.65;
+        /* scale: 0.65; */
     }
 
     #poly1 {
@@ -1328,7 +1399,7 @@ footer article img {
         margin-left: 7rem;
     }
 
-    #adapt-text-cont span {
+    #adapt {
         font-size: 1.9rem;
     }
 
