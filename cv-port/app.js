@@ -23,7 +23,11 @@ function nextImage() {
     
     if(window.innerWidth < 750) {
         scrollContainer.scrollLeft += 454;
-    } 
+    }
+
+    if(window.innerWidth < 520) {
+        scrollContainer.scrollLeft += 378;
+    }
 }
 
 function prevImage() {
@@ -35,6 +39,10 @@ function prevImage() {
 
     if(window.innerWidth < 750) {
         scrollContainer.scrollLeft -= 454;
+    }
+
+    if(window.innerWidth < 520) {
+        scrollContainer.scrollLeft -= 378;
     } 
 }
 
