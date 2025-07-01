@@ -15,6 +15,8 @@ const listLink3 = linksList.children[2].children[0]
 const overlay = document.getElementById("overlay");
 
 function nextImage() {
+    const fullWidth = window.innerWidth;
+    
     if (window.innerWidth < 1280) {
         scrollContainer.scrollLeft += 610;
     } else if (window.innerWidth >= 1280) {
@@ -25,12 +27,13 @@ function nextImage() {
         scrollContainer.scrollLeft += 454;
     }
 
-    if(window.innerWidth < 520) {
-        scrollContainer.scrollLeft += 378;
+    if(window.innerWidth <= 520) {
+        scrollContainer.scrollLeft += fullWidth;
     }
 }
 
 function prevImage() {
+    const fullWidth = window.innerWidth;
     if (window.innerWidth < 1280) {
         scrollContainer.scrollLeft -= 610;
     } else if (window.innerWidth >= 1280) {
@@ -41,8 +44,8 @@ function prevImage() {
         scrollContainer.scrollLeft -= 454;
     }
 
-    if(window.innerWidth < 520) {
-        scrollContainer.scrollLeft -= 378;
+    if(window.innerWidth <= 520) {
+        scrollContainer.scrollLeft -= fullWidth;
     } 
 }
 

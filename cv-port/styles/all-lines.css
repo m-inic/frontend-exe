@@ -602,6 +602,14 @@
         left: -50px;
     }
 
+    #line-2 {
+        display: none;
+    }
+
+    #line-3 {
+        display: none;
+    }
+
     #line-5 {
         width: 58vw;
         left: 30px;
@@ -618,13 +626,10 @@
         top: 31px;
     }
 
-    #line-3 {
-        bottom: 187px;
-    }
-
     #line-4 {
         bottom: 187px;
-        width: 67px;
+        width: 120px;
+        left: 245px;
     }
 
     #line-7 {
