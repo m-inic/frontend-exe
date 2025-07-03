@@ -548,18 +548,23 @@ main aside {
 
 .projects-tooltip::after {
   content: "visit the website";
-  position: relative;
-  top: 7rem;
-  height: 3rem;
-  left: -7rem;
+  position: absolute;
+  top: -23px;
+  height: 23px;
+  left: -14px;
   background: linear-gradient(0deg, #f5c372, #f4d6a7);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 6.5rem;
+  width: 7rem;
   line-height: 15px;
   border-radius: 1rem;
   border: 1px solid white;
+  font-size: 12px;
+  transition: all 0.1s;
+  visibility: hidden;
+  color: black;
+  box-shadow: 0px 0px 4px white;
 }
 
 #my-projects-list li:hover {
@@ -567,9 +572,48 @@ main aside {
   transition: 0.2s;
 }
 
+#todo {
+  transition: all 0.4s;
+}
+
 #todo a {
   color: #000000;
   cursor: url("pics/black-cursor.png"), pointer;
+}
+
+#calc-app:hover:after {
+  visibility: visible;
+  display: flex;
+  transition: all 0.2s;
+  left: -16px;
+}
+
+#guess-game:hover:after {
+  visibility: visible;
+  display: flex;
+  transition: all 0.2s;
+  left: -16px;
+}
+
+#pass-gen:hover:after {
+  visibility: visible;
+  display: flex;
+  transition: all 0.2s;
+  left: -16px;
+}
+
+#quote-gen:hover:after {
+  visibility: visible;
+  display: flex;
+  transition: all 0.2s;
+  left: -17px;
+}
+
+#todo:hover:after {
+  visibility: visible;
+  display: flex;
+  transition: all 0.2s;
+  left: -25px;
 }
 
 #poly-3-s {
