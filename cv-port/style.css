@@ -976,6 +976,10 @@ footer article img {
     top: 227px;
   }
 
+  main {
+    margin: 0px auto 6rem auto;
+  }
+
   #slide-cont-after {
     width: 550px;
   }
@@ -1042,6 +1046,54 @@ footer article img {
     right: unset;
     left: 50vw;
     top: 16px;
+  }
+
+  #about-me {
+    height: 70rem;
+    align-items: center;
+  }
+
+  #about-me #me-pic-lines {
+    left: 113.5px;
+    margin-left: 49.85%;
+    top: 42px;
+    z-index: 0;
+  }
+
+  #about-me-text-cont {
+    height: 61rem;
+    left: 0;
+    width: 100%;
+  }
+
+  #about-me-text-cont-p1 {
+    background: #ffffff52;
+    backdrop-filter: blur(3px);
+    margin: 0;
+    padding: 10px 16px 10px 16px;
+    position: relative;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+  #about-me-text-cont-p2 {
+    background: #ffffff52;
+    backdrop-filter: blur(3px);
+    position: relative;
+    margin: 0;
+    top: 0;
+    padding: 0px 16px 10px 16px;
+  }
+
+  #about-me-text-cont-p3 {
+  }
+
+  #about-me-text-cont-p4 {
+  }
+
+  #about-me h2 {
+    margin: 45px 200px 0px 0px;
+    text-align: left;
   }
 }
 
@@ -1250,7 +1302,7 @@ footer article img {
   main {
     flex-direction: column;
     width: 75%;
-    margin: auto;
+    /* margin: auto; */
     max-width: 498px;
   }
 
@@ -1305,24 +1357,24 @@ footer article img {
     flex-direction: column;
     width: 75%;
     max-width: 498px;
-    height: 53rem;
+    /* height: 53rem; */
   }
 
   #about-me #me-pic-lines {
-    left: 113px;
+    /* left: 113px; */
   }
 
   #about-me-text-cont {
-    width: 94%;
+    /* width: 94%; */
     position: relative;
-    left: 20%;
+    /* left: 20%; */
     bottom: 124px;
     font-size: 15px;
     max-width: 403px;
   }
 
   #about-me h2 {
-    margin: 45px 0 0px 0px;
+    /* margin: 45px 0 0px 0px; */
   }
 
   #prev-jobs {

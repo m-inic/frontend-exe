@@ -588,15 +588,18 @@
 
 @media (max-width: 520px) {
   #line-9 {
-    left: 70%;
+    bottom: 13px;
+    left: 50.5%;
   }
 
   #line-10 {
-    left: 55%;
+    bottom: -12px;
+    left: 46.8%;
   }
 
   #line-11 {
-    left: 57%;
+    bottom: -19px;
+    left: 49.7%;
   }
 }
 
@@ -653,18 +656,18 @@
   }
 
   #line-9 {
-    bottom: 106px;
+    /* bottom: 106px; */
     /* left: 54px; */
     width: 602px;
   }
 
   #line-10 {
-    bottom: 81px;
+    /* bottom: 81px; */
     /* left: -8px; */
   }
 
   #line-11 {
-    bottom: 74px;
+    /* bottom: 74px; */
     /* left: -1px; */
   }
 
