@@ -587,6 +587,10 @@
 }
 
 @media (max-width: 520px) {
+  #line-6 {
+    right: 16%;
+  }
+
   #line-9 {
     bottom: 13px;
     left: 50.5%;
@@ -600,6 +604,11 @@
   #line-11 {
     bottom: -19px;
     left: 49.7%;
+  }
+
+  #line-12 {
+    height: 565px;
+    top: -25rem;
   }
 }
 
@@ -631,7 +640,7 @@
   }
 
   #line-6 {
-    right: 28%;
+    /* right: 28%; */
     width: 257px;
     bottom: -633px;
   }
@@ -672,8 +681,8 @@
   }
 
   #line-12 {
-    height: 18rem;
-    top: -119px;
+    /* height: 18rem;
+    top: -119px; */
   }
 
   #line-23 {

@@ -1049,46 +1049,58 @@ footer article img {
   }
 
   #about-me {
-    height: 70rem;
+    height: 85rem;
     align-items: center;
   }
 
   #about-me #me-pic-lines {
-    left: 113.5px;
-    margin-left: 49.85%;
-    top: 42px;
+    left: 174.8px;
+    margin-left: unset;
+    top: 310px;
     z-index: 0;
   }
 
   #about-me-text-cont {
-    height: 61rem;
+    height: 76rem;
     left: 0;
-    width: 100%;
+    width: 295px;
   }
 
   #about-me-text-cont-p1 {
-    background: #ffffff52;
+    background: linear-gradient(0deg, #ffffff52, #ffffff73);
     backdrop-filter: blur(3px);
     margin: 0;
     padding: 10px 16px 10px 16px;
     position: relative;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    box-shadow: 0px 211px 0px 0px #ffffff52;
   }
 
   #about-me-text-cont-p2 {
-    background: #ffffff52;
     backdrop-filter: blur(3px);
     position: relative;
     margin: 0;
-    top: 0;
+    top: -6px;
     padding: 0px 16px 10px 16px;
   }
 
   #about-me-text-cont-p3 {
+    position: relative;
+    background: linear-gradient(0deg, #ffffff52, #ffffff73);
+    backdrop-filter: blur(3px);
+    padding: 10px 16px 10px 16px;
+    top: 226px;
+    margin: 0;
   }
 
   #about-me-text-cont-p4 {
+    position: relative;
+    background: linear-gradient(0deg, #ffffff52, #ffffff73);
+    backdrop-filter: blur(3px);
+    padding: 10px 16px 10px 16px;
+    top: 226px;
+    margin: 0;
   }
 
   #about-me h2 {
