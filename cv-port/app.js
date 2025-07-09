@@ -103,6 +103,18 @@ function shakeHand() {
 
 hiEmoji.addEventListener("click", shakeHand);
 
+function shakeHandConstantly() {
+    if(window.innerWidth <= 520) {
+            hiEmoji.classList.add("animate__shakeX")
+            hiEmoji.style.animationDelay = "4s";
+            hiEmoji.style.animationDuration = "3s";
+            hiEmoji.style.animationTimingFunction = "ease-in"
+            hiEmoji.style.animationIterationCount = "555"
+    }
+}
+
+shakeHandConstantly();
+
 window.onscroll = function () { showToTopBtn() };
 
 function showToTopBtn() {

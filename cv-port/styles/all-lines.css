@@ -609,6 +609,9 @@
   #line-12 {
     height: 565px;
     top: -25rem;
+    position: absolute;
+    left: -114.5px;
+    z-index: 1;
   }
 }
 
