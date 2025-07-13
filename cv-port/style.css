@@ -1105,16 +1105,34 @@ footer article img {
   #about-me-text-cont-p4 {
     position: relative;
     backdrop-filter: blur(3px);
-    padding: 0px 16px 10px 16px;
+    padding: 0px 16px 0px 16px;
     top: 215px;
+    background: linear-gradient(0deg, #ffffff5c, #ffffff00);
     margin: 0;
-    height: 128px;
-    z-index: 0;
+    height: 148px;
+    border-radius: 1rem;
   }
 
   #about-me h2 {
     margin: 45px 200px 0px 0px;
     text-align: left;
+  }
+
+  #prev-jobs {
+    right: 0;
+    width: 100vw;
+  }
+
+  #prev-jobs li img {
+    width: 90%;
+  }
+
+  #lines-poly {
+    max-width: unset;
+    min-width: unset;
+    left: unset;
+    right: unset;
+    width: 97vw;
   }
 }
 
@@ -1401,7 +1419,7 @@ footer article img {
   #prev-jobs {
     top: -8rem;
     flex-direction: row-reverse;
-    width: 100%;
+    /* width: 100%; */
     height: 9rem;
   }
 
@@ -1426,10 +1444,10 @@ footer article img {
   }
 
   #lines-poly {
-    left: 49.5px;
-    right: 10%;
-    max-width: 498px;
-    min-width: 393px;
+    /* left: 49.5px;
+    right: 10%; */
+    /* max-width: 498px;
+    min-width: 393px; */
   }
 
   #poly-5 {
