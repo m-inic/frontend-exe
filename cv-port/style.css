@@ -1133,6 +1133,18 @@ footer article img {
     left: unset;
     right: unset;
     width: 97vw;
+    bottom: -20px;
+  }
+
+  footer {
+    width: 100%;
+    max-width: unset;
+    height: 39rem;
+  }
+
+  footer article {
+    left: unset;
+    top: unset;
   }
 }
 
@@ -1456,12 +1468,18 @@ footer article img {
     top: 50px;
   }
 
+  footer {
+    /* width: 75%; */
+    margin: auto;
+    /* max-width: 498px; */
+  }
+
   footer article {
     font-size: 1.2rem;
     width: 16rem;
-    height: 30rem;
-    left: 40px;
-    top: 80px;
+    /* height: 30rem; */
+    /* left: 40px;
+    top: 80px; */
   }
 
   #assume {
