@@ -815,7 +815,7 @@ footer article img {
   body {
     height: 4499px;
   }
-  
+
   header aside {
     width: 320px;
     height: 16rem;
@@ -1148,7 +1148,7 @@ footer article img {
 
   footer article {
     left: unset;
-    top: unset;
+    top: 1.8rem;
   }
 }
 
