@@ -136,7 +136,9 @@ toTopBtn.addEventListener("click", () => {
 if (window.innerWidth >= 1280 || window.innerWidth <= 750) {
     blackText[0].style.color = "white";
     blackText[1].style.color = "white";
-} else if (window.innerWidth < 1280) {
+}
+
+if (window.innerWidth <= 520) {
     blackText[0].style.color = "black";
     blackText[1].style.color = "black";
 }
@@ -171,6 +173,8 @@ function hideMenu() {
         listLink3.style.pointerEvents = "none";
     }
 }
+
+
 
 circleMenuBtn.addEventListener("click", showMenu);
 overlay.addEventListener("click", hideMenu);

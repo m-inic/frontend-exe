@@ -1052,6 +1052,10 @@ footer article img {
     top: 16px;
   }
 
+  #poly-4-cont {
+    left: -510px;
+  }
+
   #about-me {
     height: 85rem;
     align-items: center;
@@ -1140,6 +1144,23 @@ footer article img {
     bottom: -20px;
   }
 
+  #poly-5 {
+    width: 85%;
+    top: 0%;
+    min-width: 430px;
+    right: unset;
+  }
+
+  #poly-5-s {
+    position: absolute;
+    width: 372px;
+    height: 368px;
+    margin-left: -1rem;
+    top: 2px;
+    right: unset;
+    z-index: 2;
+  }
+
   footer {
     width: 100%;
     max-width: unset;
@@ -1149,6 +1170,10 @@ footer article img {
   footer article {
     left: unset;
     top: 1.8rem;
+  }
+
+  footer article p {
+    color: black;
   }
 }
 
@@ -1441,7 +1466,7 @@ footer article img {
 
   #poly-4-cont {
     position: relative;
-    left: -238px;
+    /* left: -238px; */
     top: 100px;
   }
 
@@ -1467,9 +1492,9 @@ footer article img {
   }
 
   #poly-5 {
-    width: 23rem;
+    /* width: 23rem;
     right: -309px;
-    top: 50px;
+    top: 50px; */
   }
 
   footer {

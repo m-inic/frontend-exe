@@ -676,14 +676,14 @@
   }
 
   #line-38 {
-    width: 68.3vw;
+    width: calc(100% - 29vw);
     bottom: 82px;
-    left: 14.7%;
+    left: 14.5vw;
   }
 
   #line-39 {
     bottom: 82px;
-    left: calc(10.35vw + -5.75px);
+    left: calc(10.35vw - 6px);
     transform: rotate(315deg);
   }
 
