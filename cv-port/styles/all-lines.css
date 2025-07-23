@@ -695,7 +695,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (520px <= width < 750px) {
   #lines-1 {
     top: -795px;
     left: 0;
@@ -723,7 +723,7 @@
   }
 
   #line-6 {
-    /* right: 28%; */
+    right: 28%;
     width: 257px;
     bottom: -633px;
   }
@@ -748,69 +748,69 @@
   }
 
   #line-9 {
-    /* bottom: 106px; */
-    /* left: 54px; */
+    bottom: 106px;
+    left: 54px;
     width: 602px;
   }
 
   #line-10 {
-    /* bottom: 81px; */
-    /* left: -8px; */
+    bottom: 81px;
+    left: -8px;
   }
 
   #line-11 {
-    /* bottom: 74px; */
-    /* left: -1px; */
+    bottom: 74px;
+    left: -1px;
   }
 
   #line-12 {
-    /* height: 18rem;
-    top: -119px; */
+    height: 18rem;
+    top: -119px;
   }
 
   #line-23 {
-    /* height: 420px;
-    bottom: -783px; */
+    height: 420px;
+    bottom: -783px;
   }
 
   #line-25 {
-    /* left: -50.5px;
-    bottom: -11px; */
+    left: -50.5px;
+    bottom: -11px;
   }
 
   #line-26 {
-    /* bottom: -11px;
+    bottom: -11px;
     left: -23.5px;
-    width: 20rem; */
+    width: 20rem;
   }
 
   #line-27 {
-    /* bottom: -11px;
+    bottom: -11px;
     left: 185px;
-    width: 100%; */
+    width: 100%;
   }
 
   #line-28 {
-    /* bottom: -11px;
-    right: -300px; */
+    bottom: -11px;
+    right: -300px;
     left: unset;
   }
 
   #line-29 {
-    /* bottom: -11px;
-    right: -300px; */
+    bottom: -11px;
+    right: -300px;
     left: unset;
   }
 
   #line-30 {
-    /* bottom: -11px;
+    bottom: -11px;
     right: -300px;
-    left: unset; */
+    left: unset;
   }
 
   #line-31 {
-    /* left: -387.5px;
-    top: 605px; */
+    left: -387.5px;
+    top: 605px;
   }
 
   #line-32 {
@@ -824,11 +824,11 @@
   }
 
   #line-34 {
-    /* display: none; */
+    display: none;
   }
 
   #line-35 {
-    /* display: none; */
+    display: none;
   }
 
   #line-36 {
@@ -840,13 +840,13 @@
   }
 
   #line-38 {
-    /* bottom: 103px;
-    left: -25px; */
+    bottom: 103px;
+    left: -25px;
   }
 
   #line-39 {
-    /* bottom: 52px;
-    left: -52px; */
+    bottom: 52px;
+    left: -52px;
   }
 
   #line-40 {
@@ -855,8 +855,8 @@
   }
 
   #line-41 {
-    /* bottom: 52px;
-    left: -52px; */
+    bottom: 52px;
+    left: -52px;
   }
 }
 
@@ -882,8 +882,6 @@
     right: -275px;
     bottom: 93px;
   }
-
-  /* OVO MORA DA RESIM SEDMICU */
 
   #line-7 {
     top: -73px;

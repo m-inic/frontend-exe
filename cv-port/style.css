@@ -816,7 +816,7 @@ footer article img {
     height: 4499px;
   }
 
-  header aside {
+  body header aside {
     width: 320px;
     height: 16rem;
     margin: 1rem auto 0 auto;
@@ -834,12 +834,12 @@ footer article img {
     height: 60px;
   }
 
-  aside h1 span {
+  header aside h1 span {
     right: 120px;
     top: 9rem;
   }
 
-  #poly1 {
+  aside #poly1 {
     top: 142.5px;
     right: 104.5px;
     width: 7rem;
@@ -847,14 +847,14 @@ footer article img {
     border-radius: 9px;
   }
 
-  header nav {
+  body header nav {
     flex-direction: column;
     width: 320px;
     margin: auto;
     height: 10rem;
   }
 
-  nav p {
+  header nav p {
     font-size: 17px;
     left: -6px;
     width: 21rem;
@@ -864,12 +864,12 @@ footer article img {
     top: 21vh;
   }
 
-  #landing {
+  body #landing {
     top: -155px;
     width: 100%;
   }
 
-  #landing-intro-text-container {
+  #landing #landing-intro-text-container {
     left: unset;
     width: 19rem;
   }
@@ -936,16 +936,16 @@ footer article img {
     text-align: center;
   }
 
-  #fence {
+  #landing #fence {
     display: none;
   }
 
-  #fence img {
+  #landing #fence img {
     scale: 1;
     width: 695px;
   }
 
-  #adapt-text-cont {
+  #landing #adapt-text-cont {
     left: 57px;
     bottom: 30px;
   }
@@ -980,22 +980,22 @@ footer article img {
     top: 227px;
   }
 
-  main {
+  body main {
     margin: 0px auto 6rem auto;
   }
 
-  #slide-cont-after {
+  main #slide-cont-after {
     width: 550px;
   }
 
-  #slide-cont {
+  main #slide-cont {
     width: 100vw;
     height: 390px;
     bottom: 73px;
     align-items: center;
   }
 
-  .slide-img {
+  div .slide-img {
     width: 90vw;
     height: 366px;
     margin-left: 5vw;
@@ -1008,7 +1008,7 @@ footer article img {
     height: 366px;
   }
 
-  #my-projects-list {
+  aside #my-projects-list {
     height: 100px;
     width: 100%;
     display: grid;
@@ -1046,7 +1046,7 @@ footer article img {
     cursor: url(pics/black-cursor.png), pointer;
   }
 
-  #poly-3-cont {
+  aside #poly-3-cont {
     right: unset;
     left: 50vw;
     top: 16px;
@@ -1056,20 +1056,20 @@ footer article img {
     left: -510px;
   }
 
-  #about-me {
+  body #about-me {
     height: 85rem;
     align-items: center;
     z-index: 0;
   }
 
-  #about-me #me-pic-lines {
+  body #about-me #me-pic-lines {
     left: 174.8px;
     margin-left: unset;
     top: 310px;
     z-index: 0;
   }
 
-  #about-me-text-cont {
+  #about-me #about-me-text-cont {
     height: 76rem;
     left: 0;
     width: 295px;
@@ -1121,12 +1121,12 @@ footer article img {
     border-radius: 1rem;
   }
 
-  #about-me h2 {
+  body #about-me h2 {
     margin: 45px 200px 0px 0px;
     text-align: left;
   }
 
-  #prev-jobs {
+  #about-me #prev-jobs {
     right: 0;
     width: 100vw;
   }
@@ -1135,7 +1135,7 @@ footer article img {
     width: 90%;
   }
 
-  #lines-poly {
+  #about-me #lines-poly {
     max-width: unset;
     min-width: unset;
     left: unset;
@@ -1144,7 +1144,7 @@ footer article img {
     bottom: -20px;
   }
 
-  #poly-5 {
+  footer #poly-5 {
     width: 85%;
     top: 0%;
     min-width: 430px;
@@ -1167,7 +1167,7 @@ footer article img {
     height: 39rem;
   }
 
-  footer article {
+  body footer article {
     left: unset;
     top: 1.8rem;
   }
@@ -1200,9 +1200,9 @@ footer article img {
     flex-direction: column;
     text-align: center;
     position: relative;
-    /* width: 395px;
-  height: 14rem;
-  margin: auto; */
+    width: 395px;
+    height: 14rem;
+    margin: auto;
   }
 
   aside h2 {
@@ -1214,13 +1214,13 @@ footer article img {
   #landing-intro-text-container {
     top: -1rem;
     margin: auto;
-    /* left: -10px; */
+    left: -10px;
   }
 
   #adapt-text-cont {
-    /* bottom: 0px; */
+    bottom: 0px;
     position: relative;
-    /* left: -43px; */
+    left: -43px;
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -1237,22 +1237,22 @@ footer article img {
     position: relative;
     margin: -2rem auto 0 auto;
     width: 350px;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     top: 15px;
   }
 
   #fence img {
-    /* scale: 0.65; */
+    scale: 0.65;
   }
 
   #poly1 {
-    /* top: 62px;
-        right: -13px;
-        width: 7rem;
-        height: 7rem; */
+    top: 62px;
+    right: -13px;
+    width: 7rem;
+    height: 7rem;
     background: linear-gradient(0deg, #f5c372, #f4d6a7);
-    /* border-radius: 50%; */
+    border-radius: 50%;
     cursor: url(pics/black-cursor.png), pointer;
   }
 
@@ -1277,25 +1277,25 @@ footer article img {
   }
 
   aside h1 span {
-    /* right: 0; */
+    right: 0;
     position: absolute;
   }
 
   header nav {
-    /* width: 100%; */
-    /* margin: 0; */
-    /* height: 9rem; */
+    width: 100%;
+    margin: 0;
+    height: 9rem;
     align-items: center;
     justify-content: space-between;
-    /* flex-direction: column-reverse; */
+    flex-direction: column-reverse;
     top: -40px;
   }
 
   nav p {
     margin-top: 1rem;
-    /* font-size: 1rem; */
+    font-size: 1rem;
     text-align: center;
-    /* width: 29rem; */
+    width: 29rem;
     position: relative;
     top: 0;
     height: 25px;
@@ -1318,7 +1318,7 @@ footer article img {
     width: 30rem;
     list-style: none;
     height: 20px;
-    /* bottom: -230px; */
+    bottom: -230px;
     left: -133px;
   }
 
@@ -1362,9 +1362,9 @@ footer article img {
 
   #landing {
     margin: 12rem auto 0 auto;
-    /* top: -117px; */
+    top: -117px;
     height: 60rem;
-    /* width: 75%; */
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1382,25 +1382,25 @@ footer article img {
   main {
     flex-direction: column;
     width: 75%;
-    /* margin: auto; */
+    margin: auto;
     max-width: 498px;
   }
 
   #slide-cont-after {
-    /* width: 450px; */
+    width: 450px;
     margin: auto;
     left: unset;
     top: -80px;
   }
 
   #slide-cont {
-    /* bottom: 70px; */
+    bottom: 70px;
     left: unset;
-    /* width: 438px; */
+    width: 438px;
   }
 
   .slide-img {
-    /* width: 450px; */
+    width: 450px;
   }
 
   #arrows {
@@ -1414,10 +1414,10 @@ footer article img {
   }
 
   #my-projects-list {
-    /* height: 140px;
+    height: 140px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #my-projects-list li {
@@ -1429,44 +1429,44 @@ footer article img {
   }
 
   #poly-3-cont {
-    /* right: -177px;
-    top: -55px; */
+    right: -177px;
+    top: -55px;
   }
 
   #about-me {
     flex-direction: column;
     width: 75%;
     max-width: 498px;
-    /* height: 53rem; */
+    height: 53rem;
   }
 
   #about-me #me-pic-lines {
-    /* left: 113px; */
+    left: 113px;
   }
 
   #about-me-text-cont {
-    /* width: 94%; */
+    width: 94%;
     position: relative;
-    /* left: 20%; */
+    left: 20%;
     bottom: 124px;
     font-size: 15px;
     max-width: 403px;
   }
 
   #about-me h2 {
-    /* margin: 45px 0 0px 0px; */
+    margin: 45px 0 0px 0px;
   }
 
   #prev-jobs {
     top: -8rem;
     flex-direction: row-reverse;
-    /* width: 100%; */
+    width: 100%;
     height: 9rem;
   }
 
-  #poly-4-cont {
+  #lines-poly #poly-4-cont {
     position: relative;
-    /* left: -238px; */
+    left: -238px;
     top: 100px;
   }
 
@@ -1485,30 +1485,30 @@ footer article img {
   }
 
   #lines-poly {
-    /* left: 49.5px;
-    right: 10%; */
-    /* max-width: 498px;
-    min-width: 393px; */
+    left: 49.5px;
+    right: 10%;
+    max-width: 498px;
+    min-width: 393px;
   }
 
   #poly-5 {
-    /* width: 23rem;
+    width: 23rem;
     right: -309px;
-    top: 50px; */
+    top: 50px;
   }
 
-  footer {
-    /* width: 75%; */
+  body footer {
+    width: 75%;
     margin: auto;
-    /* max-width: 498px; */
+    max-width: 498px;
   }
 
   footer article {
     font-size: 1.2rem;
     width: 16rem;
-    /* height: 30rem; */
-    /* left: 40px;
-    top: 80px; */
+    height: 30rem;
+    left: 40px;
+    top: 80px;
   }
 
   #assume {
