@@ -865,7 +865,7 @@ footer article img {
   }
 
   body #landing {
-    top: -155px;
+    top: -75px;
     width: 100%;
   }
 
@@ -984,6 +984,10 @@ footer article img {
     margin: 0px auto 6rem auto;
   }
 
+  #poly-2-cont {
+    display: none;
+  }
+
   main #slide-cont-after {
     width: 550px;
   }
@@ -1052,7 +1056,7 @@ footer article img {
     top: 16px;
   }
 
-  #poly-4-cont {
+  #lines-poly #poly-4-cont {
     left: -510px;
   }
 
@@ -1174,6 +1178,11 @@ footer article img {
 
   footer article p {
     color: black;
+  }
+
+  footer article div {
+    position: relative;
+    top: 2rem;
   }
 }
 
@@ -1464,7 +1473,7 @@ footer article img {
     height: 9rem;
   }
 
-  #lines-poly #poly-4-cont {
+  #poly-4-cont {
     position: relative;
     left: -238px;
     top: 100px;
