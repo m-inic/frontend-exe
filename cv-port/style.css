@@ -1017,6 +1017,8 @@ footer article img {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
   }
 
   #calc-app {
@@ -1035,7 +1037,7 @@ footer article img {
     right: 21vw;
   }
 
-  #quote-gen {
+  #my-projects-list #quote-gen {
     position: relative;
     left: 4vw;
   }
@@ -1044,7 +1046,7 @@ footer article img {
     cursor: url(pics/black-cursor.png), pointer;
   } */
 
-  #todo {
+  #my-projects-list #todo {
     position: relative;
     left: 33vw;
     cursor: url(pics/black-cursor.png), pointer;
@@ -1052,8 +1054,8 @@ footer article img {
 
   aside #poly-3-cont {
     right: unset;
-    left: 50vw;
-    top: 16px;
+    left: 57vw;
+    top: 24px;
   }
 
   #lines-poly #poly-4-cont {
@@ -1427,19 +1429,47 @@ footer article img {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
   }
 
   #my-projects-list li {
     width: 5rem;
   }
 
+  #quote-gen {
+    position: relative;
+    left: 50%;
+  }
+
+  #todo {
+    position: relative;
+    left: 50%;
+  }
+
+  #todo:hover {
+    cursor: url("pics/black-cursor.png"), pointer;
+  }
+
   #my-projects-list #todo {
     width: 4rem;
   }
 
+  #poly-3-s {
+    position: absolute;
+    width: 149px;
+    height: 104px;
+    top: 18px;
+    right: 35px;
+  }
+
   #poly-3-cont {
-    right: -177px;
-    top: -55px;
+    right: 40px;
+    top: 44px;
+  }
+
+  #poly-3-cont img {
+    width: 12.7rem;
   }
 
   #about-me {
