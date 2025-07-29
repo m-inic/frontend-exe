@@ -817,62 +817,68 @@
   #line-26 {
     bottom: -11px;
     left: -23.5px;
-    width: 20rem;
+    width: calc(60vw + 13%);
   }
 
   #line-27 {
     bottom: -11px;
     left: 0;
-    width: calc(69vw - 4.5%);
+    width: calc(64.7vw - 6px);
   }
 
   #line-28 {
     bottom: -11px;
     right: unset;
-    left: 63vw;
+    left: 59.5vw;
   }
 
   #line-29 {
     bottom: -11px;
     right: unset;
-    left: 63vw;
+    left: 59.5vw;
   }
 
   #line-30 {
     bottom: -11px;
     right: unset;
-    left: 63vw;
+    left: 59.5vw;
   }
 
   #line-31 {
     left: -387.5px;
     top: 605px;
+    z-index: -1;
   }
 
   #line-32 {
+    display: none;
     bottom: -307px;
     left: -193.5px;
     width: 292px;
   }
 
   #line-33 {
-    
+    left: 59.5vw;
+    height: 593px;
+    width: 0px;
+    border-left: 3px solid white;
+    bottom: unset;
+    top: 355px;
+    transform: rotate(0deg);
+    z-index: 0;
   }
 
   #line-34 {
-    
+    display: none;
   }
 
   #line-35 {
-    
   }
 
   #line-36 {
-    
   }
 
   #line-37 {
-    
   }
 
   #line-38 {

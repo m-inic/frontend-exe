@@ -1539,14 +1539,14 @@ footer article img {
   body footer {
     width: 75%;
     margin: auto;
-    max-width: 498px;
+    max-width: unset;
   }
 
   footer article {
     font-size: 1.2rem;
     width: 16rem;
     height: 30rem;
-    left: 40px;
+    left: unset;
     top: 80px;
   }
 
