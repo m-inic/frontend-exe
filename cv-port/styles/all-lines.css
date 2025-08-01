@@ -873,18 +873,28 @@
   }
 
   #line-35 {
+    right: unset;
+    top: 83.8%;
+    position: relative;
+    transform: rotate(315deg);
+    border-top-color: #ff000000;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    left: 80.5%;
   }
 
   #line-36 {
+    display: none;
   }
 
   #line-37 {
+    display: none;
   }
 
   #line-38 {
     bottom: 103px;
-    left: -28px;
-    width: 78.5vw;
+    left: -25px;
+    width: calc(68.6vw + 7.5%);
   }
 
   #line-39 {
@@ -900,6 +910,20 @@
   #line-41 {
     bottom: 52px;
     left: -52px;
+  }
+
+  #line-42 {
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: #ffffff00;
+    bottom: 103px;
+    left: calc(55vw + 1.8%);
+    border-bottom: 3px solid #f7f7f7;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
   }
 }
 
