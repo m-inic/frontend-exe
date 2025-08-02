@@ -728,7 +728,7 @@
   }
 }
 
-@media (520px < width < 750px) {
+@media (520px < width <= 750px) {
   #lines-1 {
     top: -795px;
     left: 0;
@@ -823,31 +823,23 @@
   #line-27 {
     bottom: -11px;
     left: 0;
-    width: calc(64.7vw - 6px);
+    width: 80vw;
   }
 
   #line-28 {
-    bottom: -11px;
-    right: unset;
-    left: 59.5vw;
+    display: none;
   }
 
   #line-29 {
-    bottom: -11px;
-    right: unset;
-    left: 59.5vw;
+    display: none;
   }
 
   #line-30 {
-    bottom: -11px;
-    right: unset;
-    left: 59.5vw;
+    display: none;
   }
 
   #line-31 {
-    left: -387.5px;
-    top: 605px;
-    z-index: -1;
+    display: none;
   }
 
   #line-32 {
@@ -858,14 +850,7 @@
   }
 
   #line-33 {
-    left: 59.5vw;
-    height: 593px;
-    width: 0px;
-    border-left: 3px solid white;
-    bottom: unset;
-    top: 355px;
-    transform: rotate(0deg);
-    z-index: 0;
+    display: none;
   }
 
   #line-34 {
@@ -873,14 +858,7 @@
   }
 
   #line-35 {
-    right: unset;
-    top: 83.8%;
-    position: relative;
-    transform: rotate(315deg);
-    border-top-color: #ff000000;
-    border-right-color: #ffffff;
-    border-bottom-color: #ffffff;
-    left: 80.5%;
+    display: none;
   }
 
   #line-36 {
@@ -893,23 +871,20 @@
 
   #line-38 {
     bottom: 103px;
-    left: -25px;
-    width: calc(68.6vw + 7.5%);
+    left: -120px;
+    width: 125vw;
   }
 
   #line-39 {
-    bottom: 52px;
-    left: -52px;
+    display: none;
   }
 
   #line-40 {
-    bottom: 52px;
-    left: -52px;
+    display: none;
   }
 
   #line-41 {
-    bottom: 52px;
-    left: -52px;
+    display: none;
   }
 
   #line-42 {
