@@ -1562,6 +1562,42 @@ footer article img {
   }
 }
 
+@media (750px < width <= 1000px) {
+  aside h1 {
+    font-size: 3.5rem;
+    position: absolute;
+    margin: unset;
+    width: 24rem;
+    height: 3.5rem;
+    left: 225px;
+  }
+
+  aside h1 span {
+    position: absolute;
+    left: calc(30vw + 28%);
+  }
+
+  #poly1 {
+    right: unset;
+    left: 34.6rem;
+  }
+
+  #poly1 img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  #landing-intro-text-container {
+    top: 8rem;
+    left: 1vw;
+    width: 60vw;
+  }
+
+  #landing-intro-text-container p {
+    
+  }
+}
+
 @media (min-width: 1280px) {
   body {
     max-width: 1266px;
