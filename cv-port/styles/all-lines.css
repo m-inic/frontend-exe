@@ -902,6 +902,21 @@
   }
 }
 
+@media (750px < width <= 1000px) {
+  #line-1 {
+    height: 60rem;
+    top: -128px;
+  }
+
+  #line-5 {
+    bottom: 85px;
+  }
+
+  #line-6 {
+    bottom: 85px;
+  }
+}
+
 @media (min-width: 1280px) {
   #lines-1 {
     left: -252px;
