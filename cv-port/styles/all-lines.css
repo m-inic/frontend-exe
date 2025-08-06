@@ -909,11 +909,16 @@
   }
 
   #line-5 {
-    bottom: 85px;
+    bottom: 55px;
   }
 
   #line-6 {
-    bottom: 85px;
+    bottom: 55px;
+  }
+
+  #line-7 {
+    top: 72px;
+    left: 819px;
   }
 }
 
