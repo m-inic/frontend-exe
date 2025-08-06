@@ -1681,14 +1681,25 @@ footer article img {
     width: 520px;
     top: 220px;
     left: unset;
-    right: 29%;
+    right: calc(24% + 2vw);
   }
 
   #slide-cont {
-    bottom: -23px;
+    bottom: 184px;
     left: unset;
-    right: 30%;
+    right: calc(26.8% + 3px);
     width: 508px;
+    position: absolute;
+  }
+
+  main {
+    width: 750px;
+    margin: auto;
+  }
+
+  main aside {
+    bottom: -1.5rem;
+    left: 80%;
   }
 
   .slide-img-holder {
