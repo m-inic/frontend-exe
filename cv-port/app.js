@@ -30,6 +30,10 @@ function nextImage() {
     if(window.innerWidth <= 520) {
         scrollContainer.scrollLeft += fullWidth;
     }
+
+    if(750 <= window.innerWidth <= 1000) {
+        scrollContainer.scrollLeft += 510;
+    }
 }
 
 function prevImage() {
@@ -46,7 +50,11 @@ function prevImage() {
 
     if(window.innerWidth <= 520) {
         scrollContainer.scrollLeft -= fullWidth;
-    } 
+    }
+
+    if(750 <= window.innerWidth <= 1000) {
+        scrollContainer.scrollLeft -= 510;
+    }
 }
 
 arrowRight.addEventListener("click", nextImage)

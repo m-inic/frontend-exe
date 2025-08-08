@@ -1685,11 +1685,12 @@ footer article img {
   }
 
   #slide-cont {
-    bottom: 184px;
+    bottom: 182px;
     left: unset;
-    right: calc(26.8% + 3px);
-    width: 508px;
+    right: calc(26.8% + 5px);
+    width: 510px;
     position: absolute;
+    height: 390px;
   }
 
   main {
@@ -1702,13 +1703,39 @@ footer article img {
     left: 80%;
   }
 
-  .slide-img-holder {
-  }
-
   .slide-img {
+    width: 510px;
+    height: 390px;
   }
 
   #slide-img-4 {
+    height: 390px;
+  }
+
+  #arrows {
+    left: -3.2%;
+    bottom: 4rem;
+  }
+
+  #about-me {
+    max-width: 560px;
+    height: 50rem;
+  }
+
+  #about-me-text-cont {
+    width: 370px;
+  }
+
+  #about-me h2 {
+    margin: 45px 0 0px -80px;
+  }
+
+  #about-me-text-cont p {
+    font-size: 14.5px;
+  }
+
+  #about-me-picture {
+    top: 240px;
   }
 }
 

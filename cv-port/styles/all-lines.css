@@ -914,14 +914,85 @@
 
   #line-6 {
     left: 46vw;
-    width: 46vw;
+    width: 460px;
     bottom: 55px;
   }
 
   #line-7 {
     top: 72px;
     left: unset;
-    right: 95vw;
+    right: calc(-10.9% + -3px);
+    height: 699px;
+  }
+
+  #line-8 {
+    right: -85px;
+  }
+
+  #line-9 {
+    width: 683px;
+    left: 121px;
+  }
+
+  #line-10 {
+    left: 58px;
+  }
+
+  #line-11 {
+    left: 66px;
+  }
+
+  #line-12 {
+    height: 14rem;
+  }
+
+  #line-13 {
+    top: 186px;
+  }
+
+  #line-14 {
+    top: 186px;
+  }
+
+  #line-15 {
+    top: 237px;
+  }
+
+  #line-16 {
+    top: 237px;
+  }
+
+  #line-17 {
+    top: 264px;
+  }
+
+  #line-18 {
+    top: 264px;
+  }
+
+  #line-19 {
+    top: 333px;
+  }
+
+  #line-20 {
+    top: 333px;
+  }
+
+  #line-21 {
+    top: 384px;
+  }
+
+  #line-22 {
+    top: 384px;
+  }
+
+  #line-23 {
+    height: 223px;
+    bottom: 166px;
+  }
+
+  #line-25 {
+    left: calc(23.05% - 0.5px);
   }
 }
 
