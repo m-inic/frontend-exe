@@ -1737,6 +1737,15 @@ footer article img {
   #about-me-picture {
     top: 240px;
   }
+
+  #my-projects-list {
+    font-size: 15px;
+    right: 1.5vw;
+  }
+
+  #todo:hover:after {
+    left: -16px;
+  }
 }
 
 @media (min-width: 1280px) {
