@@ -162,13 +162,6 @@
   border-top: 3px solid #f7f7f7;
 }
 
-#me-pic-lines {
-  width: 123px;
-  position: relative;
-  left: calc(15.3% - 0.5px);
-  top: 49px;
-}
-
 #line-12 {
   position: absolute;
   width: 3px;
@@ -921,25 +914,25 @@
   #line-7 {
     top: 72px;
     left: unset;
-    right: calc(-10.9% + -3px);
+    right: calc(-95px + 0.3vw);
     height: 699px;
   }
 
   #line-8 {
-    right: -85px;
+    right: -92px;
   }
 
   #line-9 {
     width: 683px;
-    left: 121px;
+    left: 114px;
   }
 
   #line-10 {
-    left: 58px;
+    left: 52px;
   }
 
   #line-11 {
-    left: 66px;
+    left: 59px;
   }
 
   #line-12 {
@@ -987,12 +980,97 @@
   }
 
   #line-23 {
-    height: 223px;
-    bottom: 166px;
+    height: 233px;
+    bottom: 156px;
   }
 
   #line-25 {
-    left: calc(23.05% - 0.5px);
+    left: 102px;
+  }
+
+  #line-26 {
+    width: 13rem;
+    left: 133px;
+  }
+
+  #line-27 {
+    width: 467px;
+  }
+
+  #line-28 {
+    left: unset;
+    right: -385px;
+  }
+
+  #line-29 {
+    left: unset;
+    right: -385px;
+  }
+
+  #line-30 {
+    left: unset;
+    right: -385px;
+  }
+
+  #line-31 {
+    left: 470px;
+    width: 624px;
+    top: 654px;
+  }
+
+  #line-32 {
+    left: -70px;
+    width: 350px;
+    bottom: -158px;
+  }
+
+  #line-33 {
+    left: -284px;
+    z-index: 0;
+    width: 778px;
+    bottom: -134px;
+  }
+
+  #line-34 {
+    left: 494px;
+    bottom: 313px;
+    width: 314px;
+  }
+
+  #line-35 {
+    bottom: -51px;
+    right: -142px;
+  }
+
+  #line-36 {
+    bottom: -51px;
+    right: -142px;
+  }
+
+  #line-37 {
+    bottom: -51px;
+    right: -142px;
+  }
+
+  #line-38 {
+    width: 728px;
+    bottom: 0px;
+    left: -53px;
+  }
+
+  #line-39 {
+    left: -80px;
+    bottom: -51px;
+  }
+
+  #line-40 {
+    left: -80px;
+    bottom: -51px;
+  }
+
+  #line-41 {
+    left: -80px;
+    bottom: -51px;
   }
 }
 
@@ -1031,10 +1109,6 @@
 
   #line-9 {
     width: 919.5px;
-  }
-
-  #me-pic-lines {
-    left: calc(-17px - 0.5px);
   }
 
   #line-27 {

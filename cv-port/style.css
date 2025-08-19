@@ -652,6 +652,12 @@ main aside {
   justify-content: space-between;
 }
 
+#me-pic-lines {
+  position: relative;
+  left: 123.5px;
+  top: 49px;
+}
+
 #about-me h2 {
   margin: 45px 0 0px -70px;
 }
@@ -664,6 +670,8 @@ main aside {
 
 #about-me-text-cont {
   width: 565px;
+  position: relative;
+  left: 68px;
 }
 
 #motivation {
@@ -1073,7 +1081,7 @@ footer article img {
   }
 
   body #about-me #me-pic-lines {
-    left: 174.8px;
+    left: 113.5px;
     margin-left: unset;
     top: 310px;
     z-index: 0;
@@ -1567,6 +1575,10 @@ footer article img {
 }
 
 @media (750px < width <= 1000px) {
+  body {
+    height: 194rem;
+  }
+
   aside h1 {
     font-size: 3.5rem;
     position: absolute;
@@ -1694,7 +1706,7 @@ footer article img {
   }
 
   main {
-    width: 750px;
+    width: 736px;
     margin: auto;
   }
 
@@ -1722,12 +1734,20 @@ footer article img {
     height: 50rem;
   }
 
+  #me-pic-lines {
+    width: 123px;
+    position: relative;
+    left: calc(15.3% - 0.5px);
+    top: 49px;
+  }
+
   #about-me-text-cont {
     width: 370px;
+    left: unset;
   }
 
   #about-me h2 {
-    margin: 45px 0 0px -80px;
+    margin: 30px 0 0px -80px;
   }
 
   #about-me-text-cont p {
@@ -1738,6 +1758,10 @@ footer article img {
     top: 240px;
   }
 
+  #prev-jobs {
+    top: 82px;
+  }
+
   #my-projects-list {
     font-size: 15px;
     right: 1.5vw;
@@ -1745,6 +1769,34 @@ footer article img {
 
   #todo:hover:after {
     left: -16px;
+  }
+
+  #poly-4 {
+    top: 402px;
+    left: -186px;
+  }
+
+  #poly-4-s {
+    right: 214px;
+    top: 326px;
+  }
+
+  footer {
+    max-width: 560px;
+    height: 31rem;
+    margin: auto;
+  }
+
+  footer article {
+    left: 22px;
+  }
+
+  #poly-5 {
+    right: -311px;
+  }
+
+  #poly-5-s {
+    right: -277px;
   }
 }
 
@@ -1955,7 +2007,9 @@ footer article img {
   }
 
   #me-pic-lines {
+    position: relative;
     left: calc(-17px - 0.5px);
+    top: 49px;
   }
 
   #about-me-text-cont {
