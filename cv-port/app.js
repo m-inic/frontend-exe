@@ -18,20 +18,25 @@ function nextImage() {
     const fullWidth = window.innerWidth;
     
     if (window.innerWidth < 1280) {
+        console.log("ja sam")
         scrollContainer.scrollLeft += 610;
     } else if (window.innerWidth >= 1280) {
+        console.log("ja sam")
         scrollContainer.scrollLeft += 786;
     } 
     
     if(window.innerWidth < 750) {
+        console.log("ja sam")
         scrollContainer.scrollLeft += 454;
     }
 
     if(window.innerWidth <= 520) {
+        console.log("ja sam")
         scrollContainer.scrollLeft += fullWidth;
     }
 
-    if(750 <= window.innerWidth <= 1000) {
+    if(window.innerWidth <= 1000 && window.innerWidth >= 750) {
+        console.log("ja sam")
         scrollContainer.scrollLeft += 510;
     }
 }
@@ -39,20 +44,25 @@ function nextImage() {
 function prevImage() {
     const fullWidth = window.innerWidth;
     if (window.innerWidth < 1280) {
+        console.log("ja sam")
         scrollContainer.scrollLeft -= 610;
     } else if (window.innerWidth >= 1280) {
+        console.log("ja sam")
         scrollContainer.scrollLeft -= 786;
     }
 
     if(window.innerWidth < 750) {
+        console.log("ja sam")
         scrollContainer.scrollLeft -= 454;
     }
 
     if(window.innerWidth <= 520) {
+        console.log("ja sam")
         scrollContainer.scrollLeft -= fullWidth;
     }
 
-    if(750 <= window.innerWidth <= 1000) {
+    if(window.innerWidth <= 1000 && window.innerWidth >= 750) {
+        console.log("ja sam")
         scrollContainer.scrollLeft -= 510;
     }
 }

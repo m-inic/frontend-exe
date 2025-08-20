@@ -1001,7 +1001,12 @@ footer article img {
   }
 
   main #slide-cont-after {
-    width: 550px;
+    width: clamp(320px, 97vw, 505px);
+    border-bottom: 3px solid #f7f7f7;
+    border-top: 3px solid #f7f7f7;
+    border-left: unset;
+    border-right: unset;
+    border-radius: unset;
   }
 
   main #slide-cont {
